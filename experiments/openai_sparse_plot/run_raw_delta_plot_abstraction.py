@@ -529,6 +529,52 @@ def _brute_force_singleton_behavior(
     }
 
 
+def _ground_truth_singleton_test_behavior(
+    *,
+    task: str,
+    summaries: Mapping[str, Mapping[str, Any]],
+    abstract: Sequence[float],
+    neural_by_id: Mapping[str, Sequence[float]],
+) -> dict[str, Any]:
+    rows = []
+    for site_id, summary in summaries.items():
+        behavior = _behavior_summary(task, summary)
+        raw_signature = neural_by_id[site_id]
+        rows.append(
+            {
+                "selector": "ground_truth_singleton_test",
+                "handle_id": site_id,
+                "site_ids": (site_id,),
+                "weights_by_site": {site_id: 1.0},
+                "raw_signature": tuple(float(x) for x in raw_signature),
+                "raw_squared_cost": _raw_cost(abstract, raw_signature, mode="squared"),
+                "raw_cosine_cost": _raw_cost(abstract, raw_signature, mode="cosine"),
+                "summary": summary,
+                "behavior": behavior,
+                "behavior_score": _behavior_score(behavior),
+            }
+        )
+    ranked = sorted(
+        rows,
+        key=lambda row: (
+            -float(row["behavior_score"]),
+            float(row["raw_cosine_cost"]),
+            str(row["handle_id"]),
+        ),
+    )
+    if not ranked:
+        raise ValueError("no singleton summaries for ground-truth test behavior")
+    return {
+        "ranked_sites": ranked,
+        "selected": ranked[0],
+        "split": "heldout",
+        "note": (
+            "Oracle diagnostic only: ranks every singleton site by heldout/test intervention behavior. "
+            "This uses test labels and should not be treated as a calibration-time selector."
+        ),
+    }
+
+
 def _quote_soft_run(
     args: argparse.Namespace,
     *,
@@ -698,6 +744,32 @@ def _quote_soft_run(
         "summary": brute_held_summary,
         "behavior": _behavior_summary("quote", brute_held_summary),
     }
+    ground_truth_records = []
+    for handle in handles:
+        print(f"quote ground-truth singleton test {handle.handle_id}", flush=True)
+        ground_truth_records.extend(
+            run_quote_records_for_handle(
+                model=model,
+                handle=handle,
+                specs=heldout_specs,
+                examples=lookup,
+                runs=runs,
+                single_token_id=tokens["single"],
+                double_token_id=tokens["double"],
+            )
+        )
+    ground_truth_abs, ground_truth_neural, ground_truth_features = _raw_vectors_from_records(
+        ground_truth_records,
+        task="quote",
+    )
+    ground_truth = _ground_truth_singleton_test_behavior(
+        task="quote",
+        summaries=summarize_quote_records(ground_truth_records),
+        abstract=ground_truth_abs,
+        neural_by_id=ground_truth_neural,
+    )
+    ground_truth["abstract_signature"] = ground_truth_abs
+    ground_truth["feature_names"] = ground_truth_features
     return {
         "model_info": model_info,
         "candidate_source": args.quote_candidate_source,
@@ -710,6 +782,7 @@ def _quote_soft_run(
         "raw_feature_names": feature_names,
         "selector": selector,
         "brute_force_singleton_behavior": brute_force,
+        "ground_truth_singleton_test_behavior": ground_truth,
         "calibrated_soft_handles_raw_cost": calibrated_raw_cost,
         "calibrated_soft_handles_behavior": calibrated_behavior,
         "heldout_soft_summary": heldout,
@@ -970,6 +1043,27 @@ def _write_markdown(path: Path, payload: Mapping[str, Any]) -> None:
                         f"{behavior['wrong_preserve']:.3f} | {behavior['shift']:.3f} | "
                         f"{held_cosine_text} | {held_same_text} | {held_flip_text} | {held_wrong_text} |"
                     )
+            ground_truth = task.get("ground_truth_singleton_test_behavior")
+            if ground_truth:
+                lines.extend(
+                    [
+                        "",
+                        "Ground-truth singleton heldout/test oracle:",
+                        "",
+                        "This ranks every singleton site by heldout/test intervention behavior; it is an oracle diagnostic, not a calibration-time selector.",
+                        "",
+                        "| rank | site | heldout behavior score | heldout same | heldout flip | heldout wrong-preserve | heldout shift | heldout raw cosine cost |",
+                        "|---:|---|---:|---:|---:|---:|---:|---:|",
+                    ]
+                )
+                for rank, row in enumerate(ground_truth["ranked_sites"][:8], start=1):
+                    behavior = row["behavior"]
+                    lines.append(
+                        f"| {rank} | `{row['handle_id']}` | {row['behavior_score']:.3f} | "
+                        f"{behavior['same']:.3f} | {behavior['flip']:.3f} | "
+                        f"{behavior['wrong_preserve']:.3f} | {behavior['shift']:.3f} | "
+                        f"{row['raw_cosine_cost']:.3f} |"
+                    )
             lines.extend(
                 [
                     "",
@@ -1066,6 +1160,13 @@ def main() -> None:
                 "calibration_behavior_score": brute_force["selected"]["behavior_score"],
                 "calibration_behavior": brute_force["selected"]["behavior"],
                 "heldout": brute_force["heldout"]["behavior"],
+            }
+        ground_truth = task.get("ground_truth_singleton_test_behavior")
+        if ground_truth:
+            compact[task_name]["ground_truth_singleton_test"] = {
+                "site": ground_truth["selected"]["handle_id"],
+                "heldout_behavior_score": ground_truth["selected"]["behavior_score"],
+                "heldout": ground_truth["selected"]["behavior"],
             }
     print(json.dumps({"out_dir": str(args.out_dir), "soft_summary": compact}, indent=2))
 
