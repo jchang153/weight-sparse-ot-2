@@ -535,6 +535,7 @@ def _ground_truth_singleton_test_behavior(
     summaries: Mapping[str, Mapping[str, Any]],
     abstract: Sequence[float],
     neural_by_id: Mapping[str, Sequence[float]],
+    records_by_id: Mapping[str, Sequence[Mapping[str, Any]]] | None = None,
 ) -> dict[str, Any]:
     rows = []
     for site_id, summary in summaries.items():
@@ -554,6 +555,8 @@ def _ground_truth_singleton_test_behavior(
                 "behavior_score": _behavior_score(behavior),
             }
         )
+        if records_by_id is not None:
+            rows[-1]["records"] = [dict(row) for row in records_by_id.get(site_id, ())]
     ranked = sorted(
         rows,
         key=lambda row: (
@@ -762,11 +765,15 @@ def _quote_soft_run(
         ground_truth_records,
         task="quote",
     )
+    ground_truth_records_by_id: dict[str, list[Mapping[str, Any]]] = defaultdict(list)
+    for row in ground_truth_records:
+        ground_truth_records_by_id[str(row["handle_id"])].append(row)
     ground_truth = _ground_truth_singleton_test_behavior(
         task="quote",
         summaries=summarize_quote_records(ground_truth_records),
         abstract=ground_truth_abs,
         neural_by_id=ground_truth_neural,
+        records_by_id=ground_truth_records_by_id,
     )
     ground_truth["abstract_signature"] = ground_truth_abs
     ground_truth["feature_names"] = ground_truth_features
