@@ -1,0 +1,169 @@
+number of parameters: 419.09M
+[1/133] bracket raw singleton 0.attn.resid_delta:698
+[2/133] bracket raw singleton 0.attn.resid_delta:1647
+[3/133] bracket raw singleton 0.mlp.act_in:176
+[4/133] bracket raw singleton 0.mlp.act_in:765
+[5/133] bracket raw singleton 0.mlp.act_in:1141
+[6/133] bracket raw singleton 0.mlp.act_in:1490
+[7/133] bracket raw singleton 0.mlp.act_in:1646
+[8/133] bracket raw singleton 0.mlp.post_act:2719
+[9/133] bracket raw singleton 0.mlp.post_act:4016
+[10/133] bracket raw singleton 0.mlp.post_act:4607
+[11/133] bracket raw singleton 0.mlp.post_act:5116
+[12/133] bracket raw singleton 0.mlp.post_act:5553
+[13/133] bracket raw singleton 0.mlp.post_act:6416
+[14/133] bracket raw singleton 0.mlp.post_act:7275
+[15/133] bracket raw singleton 0.mlp.resid_delta:124
+[16/133] bracket raw singleton 0.mlp.resid_delta:1675
+[17/133] bracket raw singleton 1.attn.act_in:124
+[18/133] bracket raw singleton 1.attn.act_in:399
+[19/133] bracket raw singleton 1.attn.act_in:707
+[20/133] bracket raw singleton 1.attn.act_in:1647
+[21/133] bracket raw singleton 1.attn.act_in:1951
+[22/133] bracket raw singleton 1.attn.q:994
+[23/133] bracket raw singleton 1.attn.q:1521
+[24/133] bracket raw singleton 1.attn.k:994
+[25/133] bracket raw singleton 1.attn.k:1521
+[26/133] bracket raw singleton 1.attn.v:813
+[27/133] bracket raw singleton 1.attn.v:1007
+[28/133] bracket raw singleton 1.attn.v:1183
+[29/133] bracket raw singleton 1.attn.v:1286
+[30/133] bracket raw singleton 1.attn.v:1521
+[31/133] bracket raw singleton 1.attn.v:1731
+[32/133] bracket raw singleton 1.attn.v:1735
+[33/133] bracket raw singleton 1.attn.v:1737
+[34/133] bracket raw singleton 1.attn.v:1738
+[35/133] bracket raw singleton 1.attn.resid_delta:130
+[36/133] bracket raw singleton 1.attn.resid_delta:698
+[37/133] bracket raw singleton 1.attn.resid_delta:775
+[38/133] bracket raw singleton 1.attn.resid_delta:1133
+[39/133] bracket raw singleton 1.attn.resid_delta:1643
+[40/133] bracket raw singleton 1.mlp.act_in:1675
+[41/133] bracket raw singleton 1.mlp.act_in:1711
+[42/133] bracket raw singleton 1.mlp.post_act:5415
+[43/133] bracket raw singleton 1.mlp.resid_delta:124
+[44/133] bracket raw singleton 1.mlp.resid_delta:728
+[45/133] bracket raw singleton 2.attn.act_in:124
+[46/133] bracket raw singleton 2.attn.act_in:549
+[47/133] bracket raw singleton 2.attn.act_in:581
+[48/133] bracket raw singleton 2.attn.act_in:728
+[49/133] bracket raw singleton 2.attn.act_in:759
+[50/133] bracket raw singleton 2.attn.act_in:771
+[51/133] bracket raw singleton 2.attn.act_in:775
+[52/133] bracket raw singleton 2.attn.act_in:785
+[53/133] bracket raw singleton 2.attn.act_in:826
+[54/133] bracket raw singleton 2.attn.act_in:1070
+[55/133] bracket raw singleton 2.attn.act_in:1087
+[56/133] bracket raw singleton 2.attn.act_in:1133
+[57/133] bracket raw singleton 2.attn.act_in:1141
+[58/133] bracket raw singleton 2.attn.act_in:1430
+[59/133] bracket raw singleton 2.attn.act_in:1643
+[60/133] bracket raw singleton 2.attn.act_in:1711
+[61/133] bracket raw singleton 2.attn.act_in:1822
+[62/133] bracket raw singleton 2.attn.act_in:1850
+[63/133] bracket raw singleton 2.attn.act_in:2020
+[64/133] bracket raw singleton 2.attn.q:2007
+[65/133] bracket raw singleton 2.attn.k:2007
+[66/133] bracket raw singleton 2.attn.v:2012
+[67/133] bracket raw singleton 2.attn.resid_delta:1249
+[68/133] bracket raw singleton 2.mlp.act_in:1249
+[69/133] bracket raw singleton 2.mlp.post_act:2122
+[70/133] bracket raw singleton 2.mlp.post_act:5676
+[71/133] bracket raw singleton 2.mlp.resid_delta:801
+[72/133] bracket raw singleton 2.mlp.resid_delta:1079
+[73/133] bracket raw singleton 2.mlp.resid_delta:1850
+[74/133] bracket raw singleton 3.attn.act_in:130
+[75/133] bracket raw singleton 3.attn.act_in:347
+[76/133] bracket raw singleton 3.attn.act_in:581
+[77/133] bracket raw singleton 3.attn.act_in:759
+[78/133] bracket raw singleton 3.attn.act_in:801
+[79/133] bracket raw singleton 3.attn.act_in:826
+[80/133] bracket raw singleton 3.attn.act_in:1249
+[81/133] bracket raw singleton 3.attn.act_in:1643
+[82/133] bracket raw singleton 3.attn.act_in:1711
+[83/133] bracket raw singleton 3.attn.act_in:1822
+[84/133] bracket raw singleton 3.attn.act_in:1850
+[85/133] bracket raw singleton 3.attn.q:1363
+[86/133] bracket raw singleton 3.attn.q:1386
+[87/133] bracket raw singleton 3.attn.k:1363
+[88/133] bracket raw singleton 3.attn.k:1386
+[89/133] bracket raw singleton 3.attn.v:1365
+[90/133] bracket raw singleton 3.attn.v:1371
+[91/133] bracket raw singleton 3.attn.v:1385
+[92/133] bracket raw singleton 3.attn.resid_delta:1079
+[93/133] bracket raw singleton 3.attn.resid_delta:1249
+[94/133] bracket raw singleton 4.attn.act_in:1249
+[95/133] bracket raw singleton 4.attn.act_in:1675
+[96/133] bracket raw singleton 4.attn.q:1284
+[97/133] bracket raw singleton 4.attn.q:1292
+[98/133] bracket raw singleton 4.attn.k:1284
+[99/133] bracket raw singleton 4.attn.k:1292
+[100/133] bracket raw singleton 4.attn.v:1294
+[101/133] bracket raw singleton 4.attn.resid_delta:1079
+[102/133] bracket raw singleton 4.attn.resid_delta:1339
+[103/133] bracket raw singleton 4.attn.resid_delta:1974
+[104/133] bracket raw singleton 7.mlp.act_in:1079
+[105/133] bracket raw singleton 7.mlp.act_in:1249
+[106/133] bracket raw singleton 7.mlp.act_in:1974
+[107/133] bracket raw singleton 7.mlp.post_act:1482
+[108/133] bracket raw singleton 7.mlp.post_act:2199
+[109/133] bracket raw singleton 7.mlp.post_act:2288
+[110/133] bracket raw singleton 7.mlp.post_act:2511
+[111/133] bracket raw singleton 7.mlp.post_act:3082
+[112/133] bracket raw singleton 7.mlp.post_act:4133
+[113/133] bracket raw singleton 7.mlp.post_act:6250
+[114/133] bracket raw singleton 7.mlp.post_act:6323
+[115/133] bracket raw singleton 7.mlp.post_act:6561
+[116/133] bracket raw singleton 7.mlp.post_act:6720
+[117/133] bracket raw singleton 7.mlp.post_act:7058
+[118/133] bracket raw singleton 7.mlp.post_act:7618
+[119/133] bracket raw singleton 7.mlp.resid_delta:431
+[120/133] bracket raw singleton 7.mlp.resid_delta:607
+[121/133] bracket raw singleton 7.mlp.resid_delta:648
+[122/133] bracket raw singleton 7.mlp.resid_delta:855
+[123/133] bracket raw singleton 7.mlp.resid_delta:1200
+[124/133] bracket raw singleton 7.mlp.resid_delta:1339
+[125/133] bracket raw singleton 7.mlp.resid_delta:2041
+[126/133] bracket raw singleton final_resid:431
+[127/133] bracket raw singleton final_resid:607
+[128/133] bracket raw singleton final_resid:648
+[129/133] bracket raw singleton final_resid:855
+[130/133] bracket raw singleton final_resid:1079
+[131/133] bracket raw singleton final_resid:1200
+[132/133] bracket raw singleton final_resid:1339
+[133/133] bracket raw singleton final_resid:2041
+{
+  "out_dir": "eval\\openai_sparse_plot\\bracket_full133_r6_gpu_checkpointed_20260630",
+  "top_sites": {
+    "raw_squared_uot": [
+      "final_resid:1079",
+      "7.mlp.post_act:6561",
+      "7.mlp.post_act:4133",
+      "7.mlp.resid_delta:1200",
+      "final_resid:1200",
+      "7.mlp.post_act:2511",
+      "final_resid:607",
+      "final_resid:431"
+    ],
+    "raw_cosine_uot": [
+      "final_resid:1079",
+      "7.mlp.post_act:4133",
+      "7.mlp.resid_delta:2041",
+      "final_resid:2041",
+      "7.mlp.post_act:6561",
+      "final_resid:607",
+      "4.attn.resid_delta:1079",
+      "7.mlp.act_in:1079"
+    ],
+    "raw_cosine_similarity": [
+      "final_resid:1079",
+      "7.mlp.post_act:4133",
+      "7.mlp.resid_delta:2041",
+      "final_resid:2041",
+      "7.mlp.post_act:6561",
+      "final_resid:607",
+      "4.attn.resid_delta:1079",
+      "7.mlp.act_in:1079"
+    ]
+  }
+}

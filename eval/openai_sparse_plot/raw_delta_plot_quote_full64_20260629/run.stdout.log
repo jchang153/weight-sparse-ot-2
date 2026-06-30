@@ -1,0 +1,176 @@
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+WARNING: using slow attention. Flash Attention requires PyTorch >= 2.0
+number of parameters: 159.52M
+quote raw singleton 0.attn.resid_delta:455
+quote raw singleton 0.mlp.act_in:180
+quote raw singleton 0.mlp.act_in:205
+quote raw singleton 0.mlp.act_in:207
+quote raw singleton 0.mlp.act_in:824
+quote raw singleton 0.mlp.post_act:863
+quote raw singleton 0.mlp.post_act:937
+quote raw singleton 0.mlp.post_act:2790
+quote raw singleton 0.mlp.resid_delta:460
+quote raw singleton 0.mlp.resid_delta:898
+quote raw singleton 0.mlp.resid_delta:985
+quote raw singleton 1.attn.act_in:833
+quote raw singleton 1.attn.resid_delta:640
+quote raw singleton 1.attn.resid_delta:858
+quote raw singleton 2.attn.resid_delta:640
+quote raw singleton 2.attn.resid_delta:858
+quote raw singleton 2.mlp.act_in:460
+quote raw singleton 2.mlp.post_act:1076
+quote raw singleton 2.mlp.resid_delta:460
+quote raw singleton 3.attn.resid_delta:640
+quote raw singleton 3.mlp.post_act:2568
+quote raw singleton 3.mlp.resid_delta:787
+quote raw singleton 4.attn.resid_delta:858
+quote raw singleton 5.attn.act_in:640
+quote raw singleton 5.attn.act_in:833
+quote raw singleton 5.attn.v:57
+quote raw singleton 5.attn.v:73
+quote raw singleton 5.attn.resid_delta:596
+quote raw singleton 5.attn.resid_delta:1013
+quote raw singleton 6.attn.resid_delta:787
+quote raw singleton 7.attn.act_in:543
+quote raw singleton 7.attn.act_in:858
+quote raw singleton 7.attn.v:827
+quote raw singleton 7.attn.resid_delta:787
+quote raw singleton 7.attn.resid_delta:1013
+quote raw singleton 8.attn.resid_delta:787
+quote raw singleton 9.attn.act_in:787
+quote raw singleton 9.attn.v:125
+quote raw singleton 9.attn.v:425
+quote raw singleton 9.attn.v:426
+quote raw singleton 9.attn.v:429
+quote raw singleton 9.attn.v:602
+quote raw singleton 9.attn.v:674
+quote raw singleton 9.attn.resid_delta:596
+quote raw singleton 10.attn.act_in:460
+quote raw singleton 10.attn.act_in:898
+quote raw singleton 10.attn.act_in:985
+quote raw singleton 10.attn.act_in:1013
+quote raw singleton 10.attn.q:657
+quote raw singleton 10.attn.k:657
+quote raw singleton 10.attn.v:663
+quote raw singleton 10.attn.resid_delta:83
+quote raw singleton 11.mlp.act_in:83
+quote raw singleton 11.mlp.post_act:341
+quote raw singleton 11.mlp.post_act:500
+quote raw singleton 11.mlp.post_act:1369
+quote raw singleton 11.mlp.post_act:2421
+quote raw singleton 11.mlp.post_act:3137
+quote raw singleton 11.mlp.resid_delta:83
+quote raw singleton 11.mlp.resid_delta:728
+quote raw singleton final_resid:83
+quote raw singleton final_resid:596
+quote raw singleton final_resid:640
+quote raw singleton final_resid:728
+quote raw calibrating raw_squared_uot
+quote raw calibrating raw_cosine_uot
+quote raw calibrating raw_cosine_similarity
+{
+  "out_dir": "eval\\openai_sparse_plot\\raw_delta_plot_quote_full64_20260629",
+  "soft_summary": {
+    "quote": {
+      "raw_cost": {
+        "raw_squared_uot": {
+          "k": 8,
+          "strength": 1.0,
+          "sites": [
+            "10.attn.v:663",
+            "0.mlp.act_in:205",
+            "2.mlp.post_act:1076",
+            "0.mlp.act_in:207",
+            "10.attn.resid_delta:83",
+            "final_resid:728",
+            "0.mlp.act_in:180",
+            "10.attn.q:657"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 0.0,
+            "wrong_preserve": 1.0,
+            "shift": 2.2704173723856607
+          }
+        },
+        "raw_cosine_uot": {
+          "k": 1,
+          "strength": 1.0,
+          "sites": [
+            "0.mlp.resid_delta:460"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 1.0,
+            "wrong_preserve": 0.0,
+            "shift": 11.232693036397299
+          }
+        },
+        "raw_cosine_similarity": {
+          "k": 1,
+          "strength": 1.0,
+          "sites": [
+            "0.mlp.resid_delta:460"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 1.0,
+            "wrong_preserve": 0.0,
+            "shift": 11.232693036397299
+          }
+        }
+      },
+      "behavior": {
+        "raw_squared_uot": {
+          "k": 1,
+          "strength": 4.0,
+          "sites": [
+            "10.attn.v:663"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 1.0,
+            "wrong_preserve": 0.0,
+            "shift": 10.999849160512289
+          }
+        },
+        "raw_cosine_uot": {
+          "k": 1,
+          "strength": 4.0,
+          "sites": [
+            "0.mlp.resid_delta:460"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 1.0,
+            "wrong_preserve": 0.0,
+            "shift": 19.637090524037678
+          }
+        },
+        "raw_cosine_similarity": {
+          "k": 1,
+          "strength": 4.0,
+          "sites": [
+            "0.mlp.resid_delta:460"
+          ],
+          "heldout": {
+            "same": 1.0,
+            "flip": 1.0,
+            "wrong_preserve": 0.0,
+            "shift": 19.637090524037678
+          }
+        }
+      }
+    }
+  }
+}
