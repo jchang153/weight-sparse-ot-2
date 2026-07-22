@@ -1,7 +1,7 @@
 # Archived scaffold: das-addition
 
 > This document belongs to an earlier repository scaffold. Its commands and
-> paths are not part of the current `openai-plot` project.
+> paths are not part of the current `weight-sparse-ot` project.
 
 Minimal, debuggable pipeline for addition-with-carry causal abstraction alignment.
 

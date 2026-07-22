@@ -1,6 +1,6 @@
-# openai-plot
+# weight-sparse-ot
 
-`openai-plot` studies causal abstractions in OpenAI's public weight-sparse
+`weight-sparse-ot` studies causal abstractions in OpenAI's public weight-sparse
 transformers using PLOT-style effect-signature matching and activation
 interventions. The repository currently contains experiments for quote closing,
 binary bracket closing, causal-site ablation, and progressive discovery of an
@@ -127,4 +127,4 @@ The release-specific READMEs document complete model-backed reruns:
 For the original full-site result summary, see
 [docs/full-site-plot.md](docs/full-site-plot.md). Historical documentation from
 the repository's earlier scaffold is retained under `docs/archive/` and is not
-part of the current `openai-plot` workflow.
+part of the current `weight-sparse-ot` workflow.

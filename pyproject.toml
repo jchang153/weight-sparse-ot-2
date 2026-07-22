@@ -3,7 +3,7 @@ requires = ["setuptools>=75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "openai-plot"
+name = "weight-sparse-ot"
 version = "0.1.0"
 description = "PLOT causal-abstraction experiments on OpenAI weight-sparse transformers"
 readme = "README.md"
