@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "R_late_T2_base_preserve": true,
+    "R_late_output_source_match": true,
+    "R_mid_T2_source_match": true,
+    "R_mid_output_source_match": true,
+    "blocked_T2_source_match": true,
+    "blocked_output_base_preserve": false,
+    "blocked_output_base_preserve_one_to_two": true,
+    "blocked_output_base_preserve_two_to_one": false,
+    "margin_mediation_fraction": true
+  },
+  "metrics": {
+    "R_late_T2_base_preserve": 1.0,
+    "R_late_output_source_match": 1.0,
+    "R_mid_T2_source_match": 1.0,
+    "R_mid_output_source_match": 1.0,
+    "blocked_T2_source_match": 1.0,
+    "blocked_output_base_preserve": 0.875,
+    "blocked_output_base_preserve_one_to_two": 1.0,
+    "blocked_output_base_preserve_two_to_one": 0.7468354430379747,
+    "mean_margin_mediation_fraction": 0.756307908064809
+  },
+  "validated": false
+}

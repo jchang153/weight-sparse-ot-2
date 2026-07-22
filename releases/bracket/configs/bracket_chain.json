@@ -1,0 +1,17 @@
+{
+  "candidate_count": 133,
+  "candidate_filtering": "none",
+  "candidate_resolution": "singleton_matching_with_top_k_handle_calibration",
+  "targets": ["R_mid", "R_late"],
+  "R_mid_abstract_signature": ["delta_T2", "delta_P_one", "delta_P_two"],
+  "R_late_abstract_signature": [0, "delta_P_one", "delta_P_two"],
+  "epsilon_grid": [0.02, 0.08, 0.32],
+  "beta_grid": [0.02, 0.08, 0.32],
+  "k_grid": [1, 2, 3, 5, 8],
+  "lambda_grid": [0.5, 1.0, 2.0, 4.0],
+  "acceptance_threshold": 0.9,
+  "Dfit_records": 600,
+  "balanced_Dcal_records": 600,
+  "balanced_Dte_records": 600,
+  "Dte_selection_use": "forbidden"
+}

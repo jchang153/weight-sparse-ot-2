@@ -1,0 +1,9 @@
+{
+  "status": "diagnostic_only",
+  "P": "position of the unmatched opening quote",
+  "Q": "X_P restricted to single/double quote type",
+  "declared_attention_head": 82,
+  "declared_qk_channel": 657,
+  "declared_value_channel": 663,
+  "note": "These components test a predeclared mechanistic hypothesis and are not the candidate universe for Q1 discovery."
+}

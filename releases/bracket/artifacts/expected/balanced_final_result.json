@@ -1,0 +1,316 @@
+{
+  "clean": {
+    "Dcal_accuracy": 1.0,
+    "Dte_accuracy": 1.0
+  },
+  "decision": {
+    "all_direct_handles_validated": false,
+    "branching_model_validated": false,
+    "conclusion": "direct_handle_validation_failed",
+    "pure_chain_validated": false
+  },
+  "factorial": {
+    "CDE_bootstrap_95": {
+      "one_to_two": {
+        "cluster_key": "base_content",
+        "clusters": 24,
+        "high": 0.2100996847630973,
+        "low": 0.20331055390175956,
+        "mean": 0.2067504540395408
+      },
+      "two_to_one": {
+        "cluster_key": "base_content",
+        "clusters": 24,
+        "high": 0.25454334234467185,
+        "low": 0.24379329919635856,
+        "mean": 0.24898676390387603
+      }
+    },
+    "bootstrap_unit": "base numeric content",
+    "branching_checks": {
+      "positive_CDE_one_to_two": true,
+      "positive_CDE_two_to_one": true
+    },
+    "conclusion": "residual_effect_but_Rlate_invariance_failed",
+    "direction_counts": {
+      "one_to_two": 75,
+      "two_to_one": 104
+    },
+    "metrics": {
+      "blocked_T2_source_one_to_two": 1.0,
+      "blocked_T2_source_two_to_one": 1.0,
+      "blocked_output_base_one_to_two": 1.0,
+      "blocked_output_base_two_to_one": 0.5288461538461539,
+      "blocked_output_source_one_to_two": 0.0,
+      "blocked_output_source_two_to_one": 0.47115384615384615,
+      "both_source_T2_source_one_to_two": 1.0,
+      "both_source_T2_source_two_to_one": 1.0,
+      "both_source_output_source_one_to_two": 1.0,
+      "both_source_output_source_two_to_one": 1.0,
+      "late_T2_base_one_to_two": 0.88,
+      "late_T2_base_two_to_one": 1.0,
+      "late_output_source_one_to_two": 1.0,
+      "late_output_source_two_to_one": 1.0,
+      "mean_CDE_fraction_one_to_two": 0.2067504540395408,
+      "mean_CDE_fraction_two_to_one": 0.24898676390387603,
+      "mid_T2_source_one_to_two": 1.0,
+      "mid_T2_source_two_to_one": 1.0,
+      "mid_output_source_one_to_two": 1.0,
+      "mid_output_source_two_to_one": 1.0
+    },
+    "pure_chain_checks": {
+      "CDE_near_zero_one_to_two": false,
+      "CDE_near_zero_two_to_one": false,
+      "blocked_output_base_one_to_two": true,
+      "blocked_output_base_two_to_one": false
+    },
+    "pure_chain_validated": false,
+    "record_count": 179,
+    "sufficiency_checks": {
+      "late_T2_base_one_to_two": false,
+      "late_T2_base_two_to_one": true,
+      "late_output_source_one_to_two": true,
+      "late_output_source_two_to_one": true
+    },
+    "symmetric_branch_validated": false
+  },
+  "heldout_direct": {
+    "R_late": {
+      "acceptance": {
+        "checks": {
+          "different_R_T2_expected": true,
+          "different_R_output_expected": true,
+          "one_to_two_T2_expected": false,
+          "one_to_two_output_expected": true,
+          "same_R_T2_expected": true,
+          "same_R_output_expected": true,
+          "same_surface_T2_expected": true,
+          "same_surface_output_expected": true,
+          "two_to_one_T2_expected": true,
+          "two_to_one_output_expected": true,
+          "wrong_numeric_T2_expected": true,
+          "wrong_numeric_output_expected": true,
+          "wrong_tail_T2_expected": true,
+          "wrong_tail_output_expected": true
+        },
+        "threshold": 0.9,
+        "validated": false
+      },
+      "summary": {
+        "gates": {
+          "different_R_T2_expected": 0.9497206703910615,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 0.88,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 0.95,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "records": 600,
+        "relation_counts": {
+          "different_D_different_R": 100,
+          "different_D_same_R": 100,
+          "same_D": 100,
+          "same_surface_different_active_context": 100,
+          "wrong_numeric_content": 100,
+          "wrong_tail_length": 100
+        },
+        "score": 0.9842657621707901,
+        "worst_gate": 0.88
+      }
+    },
+    "R_mid": {
+      "acceptance": {
+        "checks": {
+          "different_R_T2_expected": true,
+          "different_R_output_expected": true,
+          "one_to_two_T2_expected": true,
+          "one_to_two_output_expected": true,
+          "same_R_T2_expected": true,
+          "same_R_output_expected": true,
+          "same_surface_T2_expected": true,
+          "same_surface_output_expected": true,
+          "two_to_one_T2_expected": true,
+          "two_to_one_output_expected": true,
+          "wrong_numeric_T2_expected": true,
+          "wrong_numeric_output_expected": true,
+          "wrong_tail_T2_expected": true,
+          "wrong_tail_output_expected": true
+        },
+        "threshold": 0.9,
+        "validated": true
+      },
+      "summary": {
+        "gates": {
+          "different_R_T2_expected": 1.0,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 1.0,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 1.0,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "records": 600,
+        "relation_counts": {
+          "different_D_different_R": 100,
+          "different_D_same_R": 100,
+          "same_D": 100,
+          "same_surface_different_active_context": 100,
+          "wrong_numeric_content": 100,
+          "wrong_tail_length": 100
+        },
+        "score": 1.0,
+        "worst_gate": 1.0
+      }
+    }
+  },
+  "rmid": {
+    "beta": 0.08,
+    "coefficients": [
+      1.0
+    ],
+    "epsilon": 0.08,
+    "gates": {
+      "different_R_T2_expected": 1.0,
+      "different_R_output_expected": 1.0,
+      "one_to_two_T2_expected": 1.0,
+      "one_to_two_output_expected": 1.0,
+      "same_R_T2_expected": 1.0,
+      "same_R_output_expected": 1.0,
+      "same_surface_T2_expected": 1.0,
+      "same_surface_output_expected": 1.0,
+      "two_to_one_T2_expected": 1.0,
+      "two_to_one_output_expected": 1.0,
+      "wrong_numeric_T2_expected": 1.0,
+      "wrong_numeric_output_expected": 1.0,
+      "wrong_tail_T2_expected": 1.0,
+      "wrong_tail_output_expected": 1.0
+    },
+    "handle_id": "R_mid:eps0.08:beta0.08:K1:lambda1",
+    "k": 1,
+    "score": 1.0,
+    "site_ids": [
+      "4.attn.resid_delta:1079"
+    ],
+    "strength": 1.0,
+    "target": "R_mid",
+    "validated": true,
+    "weights": [
+      1.0
+    ],
+    "worst_gate": 1.0
+  },
+  "selection": {
+    "beta": 0.02,
+    "blocking_summary": {
+      "checks": {
+        "blocked_T2_source": true,
+        "blocked_output_base": false,
+        "blocked_output_base_one_to_two": true,
+        "blocked_output_base_two_to_one": false,
+        "late_T2_base": true,
+        "late_output_source": true,
+        "late_output_source_one_to_two": true,
+        "late_output_source_two_to_one": true,
+        "mid_T2_source": true,
+        "mid_output_source": true
+      },
+      "direction_counts": {
+        "one_to_two": 74,
+        "two_to_one": 101
+      },
+      "metrics": {
+        "blocked_T2_source": 1.0,
+        "blocked_output_base": 0.7428571428571429,
+        "blocked_output_base_one_to_two": 1.0,
+        "blocked_output_base_two_to_one": 0.5544554455445545,
+        "late_T2_base": 0.9485714285714286,
+        "late_output_source": 1.0,
+        "late_output_source_one_to_two": 1.0,
+        "late_output_source_two_to_one": 1.0,
+        "mean_CDE_fraction_one_to_two": 0.20857372153625767,
+        "mean_CDE_fraction_two_to_one": 0.2524101037013923,
+        "mid_T2_source": 1.0,
+        "mid_output_source": 1.0
+      },
+      "record_count": 175,
+      "score": 0.9245884016973125,
+      "validated": false,
+      "worst_gate": 0.5544554455445545
+    },
+    "blocking_validated": false,
+    "chain_eligible": true,
+    "coefficients": [
+      1.8291640001,
+      0.1708359999
+    ],
+    "config_id": "balanced-candidate-3",
+    "direct_summary": {
+      "gates": {
+        "different_R_T2_expected": 0.9485714285714286,
+        "different_R_output_expected": 1.0,
+        "one_to_two_T2_expected": 0.8783783783783784,
+        "one_to_two_output_expected": 1.0,
+        "same_R_T2_expected": 1.0,
+        "same_R_output_expected": 0.9976470588235294,
+        "same_surface_T2_expected": 0.95,
+        "same_surface_output_expected": 1.0,
+        "two_to_one_T2_expected": 1.0,
+        "two_to_one_output_expected": 1.0,
+        "wrong_numeric_T2_expected": 1.0,
+        "wrong_numeric_output_expected": 1.0,
+        "wrong_tail_T2_expected": 1.0,
+        "wrong_tail_output_expected": 1.0
+      },
+      "records": 600,
+      "relation_counts": {
+        "different_D_different_R": 100,
+        "different_D_same_R": 100,
+        "same_D": 100,
+        "same_surface_different_active_context": 100,
+        "wrong_numeric_content": 100,
+        "wrong_tail_length": 100
+      },
+      "score": 0.9838997761266669,
+      "worst_gate": 0.8783783783783784
+    },
+    "direct_validated": false,
+    "epsilon": 0.02,
+    "k": 2,
+    "rmid_overlap": [],
+    "score": 0.9542440889119896,
+    "site_ids": [
+      "7.mlp.act_in:1079",
+      "4.attn.q:1292"
+    ],
+    "source_settings": [
+      {
+        "beta": 0.02,
+        "epsilon": 0.02,
+        "k": 2,
+        "strength": 2.0
+      }
+    ],
+    "strength": 2.0,
+    "weights": [
+      0.9145820000658879,
+      0.08541799993411216
+    ],
+    "worst_gate": 0.5544554455445545
+  },
+  "selection_completed_before_Dte": true
+}

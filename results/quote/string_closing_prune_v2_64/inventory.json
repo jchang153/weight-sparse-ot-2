@@ -1,0 +1,3644 @@
+{
+  "candidate_viz_paths": [
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v5_logitscaling/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v4/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v3/32/viz_data.pkl"
+  ],
+  "graph": {
+    "edges": [
+      {
+        "dst": "0.mlp.post_act:2790",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 2,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "0.mlp.act_in:180",
+        "weight": 0.6909025311470032
+      },
+      {
+        "dst": "0.mlp.post_act:2790",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 2,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "0.mlp.act_in:205",
+        "weight": 1.7401469945907593
+      },
+      {
+        "dst": "0.mlp.post_act:863",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 0,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 2
+        },
+        "src": "0.mlp.act_in:207",
+        "weight": 0.7102442979812622
+      },
+      {
+        "dst": "0.mlp.post_act:937",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 3
+        },
+        "src": "0.mlp.act_in:824",
+        "weight": 0.42081281542778015
+      },
+      {
+        "dst": "0.mlp.resid_delta:460",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "0.mlp.post_act:863",
+        "weight": 0.24633502960205078
+      },
+      {
+        "dst": "0.mlp.resid_delta:985",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "0.mlp.post_act:863",
+        "weight": 0.4641159176826477
+      },
+      {
+        "dst": "0.mlp.resid_delta:898",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "0.mlp.post_act:937",
+        "weight": 0.42139607667922974
+      },
+      {
+        "dst": "0.mlp.resid_delta:460",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "0.mlp.post_act:2790",
+        "weight": 2.4198827743530273
+      },
+      {
+        "dst": "0.mlp.resid_delta:985",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "0.mlp.post_act:2790",
+        "weight": 1.7012382745742798
+      },
+      {
+        "dst": "2.mlp.post_act:1076",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.post_act",
+          "dst_row": 0,
+          "entry_index": 8,
+          "src_location": "2.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "2.mlp.act_in:460",
+        "weight": 0.004548931960016489
+      },
+      {
+        "dst": "2.mlp.resid_delta:460",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "2.mlp.post_act:1076",
+        "weight": 0.004086719825863838
+      },
+      {
+        "dst": "3.mlp.resid_delta:787",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 12,
+          "src_location": "3.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "3.mlp.post_act:2568",
+        "weight": 0.004693550057709217
+      },
+      {
+        "dst": "5.attn.v:57",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "5.attn.v",
+          "dst_row": 0,
+          "entry_index": 16,
+          "src_location": "5.attn.act_in",
+          "src_row": 0
+        },
+        "src": "5.attn.act_in:640",
+        "weight": 0.48090001940727234
+      },
+      {
+        "dst": "5.attn.v:73",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "5.attn.v",
+          "dst_row": 1,
+          "entry_index": 16,
+          "src_location": "5.attn.act_in",
+          "src_row": 1
+        },
+        "src": "5.attn.act_in:833",
+        "weight": 7.755549449939281e-05
+      },
+      {
+        "dst": "5.attn.resid_delta:1013",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "5.attn.resid_delta",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "5.attn.v",
+          "src_row": 0
+        },
+        "src": "5.attn.v:57",
+        "weight": 0.48090001940727234
+      },
+      {
+        "dst": "5.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "5.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "5.attn.v",
+          "src_row": 1
+        },
+        "src": "5.attn.v:73",
+        "weight": 7.755549449939281e-05
+      },
+      {
+        "dst": "7.attn.v:827",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.attn.v",
+          "dst_row": 0,
+          "entry_index": 21,
+          "src_location": "7.attn.act_in",
+          "src_row": 0
+        },
+        "src": "7.attn.act_in:543",
+        "weight": 0.0002615875273477286
+      },
+      {
+        "dst": "7.attn.v:827",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.attn.v",
+          "dst_row": 0,
+          "entry_index": 21,
+          "src_location": "7.attn.act_in",
+          "src_row": 1
+        },
+        "src": "7.attn.act_in:858",
+        "weight": 0.03171500563621521
+      },
+      {
+        "dst": "7.attn.resid_delta:787",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 22,
+          "src_location": "7.attn.v",
+          "src_row": 0
+        },
+        "src": "7.attn.v:827",
+        "weight": 0.00933703314512968
+      },
+      {
+        "dst": "7.attn.resid_delta:1013",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.attn.resid_delta",
+          "dst_row": 1,
+          "entry_index": 22,
+          "src_location": "7.attn.v",
+          "src_row": 0
+        },
+        "src": "7.attn.v:827",
+        "weight": 0.002553829923272133
+      },
+      {
+        "dst": "9.attn.v:125",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 0,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.0016791329253464937
+      },
+      {
+        "dst": "9.attn.v:425",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 1,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.009766660630702972
+      },
+      {
+        "dst": "9.attn.v:426",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 2,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.03252491354942322
+      },
+      {
+        "dst": "9.attn.v:429",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 3,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.0022663462441414595
+      },
+      {
+        "dst": "9.attn.v:602",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 4,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.0024593262933194637
+      },
+      {
+        "dst": "9.attn.v:674",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.v",
+          "dst_row": 5,
+          "entry_index": 26,
+          "src_location": "9.attn.act_in",
+          "src_row": 0
+        },
+        "src": "9.attn.act_in:787",
+        "weight": 0.013617306016385555
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 0
+        },
+        "src": "9.attn.v:125",
+        "weight": 0.0016791336238384247
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 1
+        },
+        "src": "9.attn.v:425",
+        "weight": 0.009766685776412487
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 2
+        },
+        "src": "9.attn.v:426",
+        "weight": 0.03252493217587471
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 3
+        },
+        "src": "9.attn.v:429",
+        "weight": 0.0022663462441414595
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 4
+        },
+        "src": "9.attn.v:602",
+        "weight": 0.0024593262933194637
+      },
+      {
+        "dst": "9.attn.resid_delta:596",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "9.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 27,
+          "src_location": "9.attn.v",
+          "src_row": 5
+        },
+        "src": "9.attn.v:674",
+        "weight": 0.013617306016385555
+      },
+      {
+        "dst": "10.attn.q:657",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "10.attn.q",
+          "dst_row": 0,
+          "entry_index": 28,
+          "src_location": "10.attn.act_in",
+          "src_row": 3
+        },
+        "src": "10.attn.act_in:1013",
+        "weight": 2.773712635040283
+      },
+      {
+        "dst": "10.attn.k:657",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "10.attn.k",
+          "dst_row": 0,
+          "entry_index": 29,
+          "src_location": "10.attn.act_in",
+          "src_row": 1
+        },
+        "src": "10.attn.act_in:898",
+        "weight": 2.773712635040283
+      },
+      {
+        "dst": "10.attn.k:657",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "10.attn.k",
+          "dst_row": 0,
+          "entry_index": 29,
+          "src_location": "10.attn.act_in",
+          "src_row": 2
+        },
+        "src": "10.attn.act_in:985",
+        "weight": 2.773712635040283
+      },
+      {
+        "dst": "10.attn.v:663",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "10.attn.v",
+          "dst_row": 0,
+          "entry_index": 30,
+          "src_location": "10.attn.act_in",
+          "src_row": 0
+        },
+        "src": "10.attn.act_in:460",
+        "weight": 2.94366192817688
+      },
+      {
+        "dst": "10.attn.resid_delta:83",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "10.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 31,
+          "src_location": "10.attn.v",
+          "src_row": 0
+        },
+        "src": "10.attn.v:663",
+        "weight": 2.94366192817688
+      },
+      {
+        "dst": "11.mlp.post_act:500",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 32,
+          "src_location": "11.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "11.mlp.act_in:83",
+        "weight": 0.004215382970869541
+      },
+      {
+        "dst": "11.mlp.post_act:1369",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.post_act",
+          "dst_row": 2,
+          "entry_index": 32,
+          "src_location": "11.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "11.mlp.act_in:83",
+        "weight": 0.01921546459197998
+      },
+      {
+        "dst": "11.mlp.post_act:2421",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.post_act",
+          "dst_row": 3,
+          "entry_index": 32,
+          "src_location": "11.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "11.mlp.act_in:83",
+        "weight": 0.010013055987656116
+      },
+      {
+        "dst": "11.mlp.resid_delta:83",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "11.mlp.post_act:341",
+        "weight": -0.0013457754394039512
+      },
+      {
+        "dst": "11.mlp.resid_delta:728",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "11.mlp.post_act:341",
+        "weight": 0.0036809227894991636
+      },
+      {
+        "dst": "11.mlp.resid_delta:728",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "11.mlp.post_act:500",
+        "weight": 0.0028420696035027504
+      },
+      {
+        "dst": "11.mlp.resid_delta:728",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "11.mlp.post_act:1369",
+        "weight": 0.017075328156352043
+      },
+      {
+        "dst": "11.mlp.resid_delta:83",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 3
+        },
+        "src": "11.mlp.post_act:2421",
+        "weight": 0.0028043980710208416
+      },
+      {
+        "dst": "11.mlp.resid_delta:83",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "11.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 33,
+          "src_location": "11.mlp.post_act",
+          "src_row": 4
+        },
+        "src": "11.mlp.post_act:3137",
+        "weight": 0.0016365819610655308
+      }
+    ],
+    "k": 64,
+    "metadata": {
+      "extraction_warning": "Best-effort extraction. Verify node/edge semantics against circuit_sparsity/viz.py and the Streamlit visualizer before using this graph for claims.",
+      "parsed_pair_data_entries": 34,
+      "retained_node_locations": [
+        "0.attn.act_in",
+        "0.attn.k",
+        "0.attn.q",
+        "0.attn.resid_delta",
+        "0.attn.v",
+        "0.mlp.act_in",
+        "0.mlp.post_act",
+        "0.mlp.resid_delta",
+        "1.attn.act_in",
+        "1.attn.k",
+        "1.attn.q",
+        "1.attn.resid_delta",
+        "1.attn.v",
+        "1.mlp.act_in",
+        "1.mlp.post_act",
+        "1.mlp.resid_delta",
+        "10.attn.act_in",
+        "10.attn.k",
+        "10.attn.q",
+        "10.attn.resid_delta",
+        "10.attn.v",
+        "10.mlp.act_in",
+        "10.mlp.post_act",
+        "10.mlp.resid_delta",
+        "11.attn.act_in",
+        "11.attn.k",
+        "11.attn.q",
+        "11.attn.resid_delta",
+        "11.attn.v",
+        "11.mlp.act_in",
+        "11.mlp.post_act",
+        "11.mlp.resid_delta",
+        "2.attn.act_in",
+        "2.attn.k",
+        "2.attn.q",
+        "2.attn.resid_delta",
+        "2.attn.v",
+        "2.mlp.act_in",
+        "2.mlp.post_act",
+        "2.mlp.resid_delta",
+        "3.attn.act_in",
+        "3.attn.k",
+        "3.attn.q",
+        "3.attn.resid_delta",
+        "3.attn.v",
+        "3.mlp.act_in",
+        "3.mlp.post_act",
+        "3.mlp.resid_delta",
+        "4.attn.act_in",
+        "4.attn.k",
+        "4.attn.q",
+        "4.attn.resid_delta",
+        "4.attn.v",
+        "4.mlp.act_in",
+        "4.mlp.post_act",
+        "4.mlp.resid_delta",
+        "5.attn.act_in",
+        "5.attn.k",
+        "5.attn.q",
+        "5.attn.resid_delta",
+        "5.attn.v",
+        "5.mlp.act_in",
+        "5.mlp.post_act",
+        "5.mlp.resid_delta",
+        "6.attn.act_in",
+        "6.attn.k",
+        "6.attn.q",
+        "6.attn.resid_delta",
+        "6.attn.v",
+        "6.mlp.act_in",
+        "6.mlp.post_act",
+        "6.mlp.resid_delta",
+        "7.attn.act_in",
+        "7.attn.k",
+        "7.attn.q",
+        "7.attn.resid_delta",
+        "7.attn.v",
+        "7.mlp.act_in",
+        "7.mlp.post_act",
+        "7.mlp.resid_delta",
+        "8.attn.act_in",
+        "8.attn.k",
+        "8.attn.q",
+        "8.attn.resid_delta",
+        "8.attn.v",
+        "8.mlp.act_in",
+        "8.mlp.post_act",
+        "8.mlp.resid_delta",
+        "9.attn.act_in",
+        "9.attn.k",
+        "9.attn.q",
+        "9.attn.resid_delta",
+        "9.attn.v",
+        "9.mlp.act_in",
+        "9.mlp.post_act",
+        "9.mlp.resid_delta",
+        "final_resid"
+      ],
+      "viz_data_summary": {
+        "summary": {
+          "all_loss": {
+            "items": [
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "1.7518144845962524",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.3658750355243683",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.1266971379518509",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.006111074239015579",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              }
+            ],
+            "len": 4,
+            "type": "list"
+          },
+          "circuit_data": {
+            "0.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.act_in": {
+              "shape": [
+                4
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.post_act": {
+              "shape": [
+                3
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.resid_delta": {
+              "shape": [
+                3
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.act_in": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.act_in": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.post_act": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.post_act": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.act_in": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.v": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "6.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "6.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            }
+          },
+          "importances": {
+            "beeg_model_config": {
+              "activation_type": {
+                "repr": "'gelu'",
+                "type": "str"
+              },
+              "afrac": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "afrac_approx": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "afrac_loctypes": {
+                "repr": "'attn_in,attn_out,mlp_in,mlp_out'",
+                "type": "str"
+              },
+              "bias": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "bigram_table_rank": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "block_size": {
+                "repr": "1024",
+                "type": "int"
+              },
+              "d_head": {
+                "repr": "8",
+                "type": "int"
+              },
+              "d_mlp": {
+                "repr": "4096",
+                "type": "int"
+              },
+              "d_model": {
+                "repr": "1024",
+                "type": "int"
+              },
+              "d_pos_emb": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "debug_exact_topk": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "debug_nans": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "dropout": {
+                "repr": "0.0",
+                "type": "float"
+              },
+              "dropout_cat_pos_emb": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "enable_bigram_table": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "enable_sparse_kernels": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "expansion_factor": {
+                "repr": "4",
+                "type": "int"
+              },
+              "expansion_factor_mlp": {
+                "repr": "4",
+                "type": "int"
+              },
+              "flash": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "grad_checkpointing": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "ignore_dw_grad": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "learnable_bigram_table": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "ln_bias": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "n_embd": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "n_head": {
+                "repr": "128",
+                "type": "int"
+              },
+              "n_layer": {
+                "repr": "12",
+                "type": "int"
+              },
+              "pfrac": {
+                "repr": "0.0625",
+                "type": "float"
+              },
+              "residual_activation_type": {
+                "repr": "'identity'",
+                "type": "str"
+              },
+              "rms_norm": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "rtopk": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "sink": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "sinusoidal_cat_pos_emb": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "sparse_matmul_impl": {
+                "repr": "'cuda'",
+                "type": "str"
+              },
+              "tied_unembed": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "tokenizer_name": {
+                "repr": "'tinypython_2k'",
+                "type": "str"
+              },
+              "vocab_size": {
+                "repr": "2048",
+                "type": "int"
+              }
+            },
+            "ch_interv_losses": {
+              "0.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "0.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.mlp.act_in": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 4,
+                "type": "list"
+              },
+              "0.mlp.post_act": {
+                "items": [
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 3,
+                "type": "list"
+              },
+              "0.mlp.resid_delta": {
+                "items": [
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 3,
+                "type": "list"
+              },
+              "1.attn.act_in": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "1.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "1.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "1.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "1.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "1.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "1.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "1.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "2.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "2.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "2.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "2.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "2.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "2.mlp.act_in": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.mlp.post_act": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.mlp.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "3.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.attn.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "3.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.mlp.post_act": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "3.mlp.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "4.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.attn.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "4.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.act_in": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "5.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "5.attn.v": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "5.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "6.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "6.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              }
+            },
+            "interv_loss": {
+              "repr": "0.006824841030396688",
+              "type": "float"
+            },
+            "layer_interv_losses": {
+              "0.attn": {
+                "repr": "0.006930334486586944",
+                "type": "float"
+              },
+              "0.mlp": {
+                "repr": "3.024932944497397",
+                "type": "float"
+              },
+              "1.attn": {
+                "repr": "0.038446255012860454",
+                "type": "float"
+              },
+              "1.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "10.attn": {
+                "repr": "3.014032472011655",
+                "type": "float"
+              },
+              "10.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "11.attn": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "11.mlp": {
+                "repr": "0.5675340497563052",
+                "type": "float"
+              },
+              "2.attn": {
+                "repr": "0.15385290665865395",
+                "type": "float"
+              },
+              "2.mlp": {
+                "repr": "0.010856384734525755",
+                "type": "float"
+              },
+              "3.attn": {
+                "repr": "0.009105675271166283",
+                "type": "float"
+              },
+              "3.mlp": {
+                "repr": "0.013927983611321991",
+                "type": "float"
+              },
+              "4.attn": {
+                "repr": "0.006999080438793784",
+                "type": "float"
+              },
+              "4.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "5.attn": {
+                "repr": "0.5717810695817651",
+                "type": "float"
+              },
+              "5.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "6.attn": {
+                "repr": "0.007187740892492176",
+                "type": "float"
+              },
+              "6.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "7.attn": {
+                "repr": "0.1461401015863927",
+                "type": "float"
+              },
+              "7.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "8.attn": {
+                "repr": "0.00819304047763977",
+                "type": "float"
+              },
+              "8.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "9.attn": {
+                "repr": "1.1461646508338839",
+                "type": "float"
+              },
+              "9.mlp": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              }
+            },
+            "loc_interv_losses": {
+              "0.attn.act_in": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "0.attn.k": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "0.attn.q": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "0.attn.resid_delta": {
+                "repr": "0.006930334486586944",
+                "type": "float"
+              },
+              "0.attn.v": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "0.mlp.act_in": {
+                "repr": "3.0451261110084",
+                "type": "float"
+              },
+              "0.mlp.post_act": {
+                "repr": "3.024933188460594",
+                "type": "float"
+              },
+              "0.mlp.resid_delta": {
+                "repr": "3.024932944497397",
+                "type": "float"
+              },
+              "1.attn.act_in": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "1.attn.k": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "1.attn.q": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "1.attn.resid_delta": {
+                "repr": "0.038446255012860454",
+                "type": "float"
+              },
+              "1.attn.v": {
+                "repr": "0.006824841030396688",
+                "type": "float"
+              },
+              "1.mlp.act_in": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "1.mlp.post_act": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "1.mlp.resid_delta": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "2.attn.act_in": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "2.attn.k": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "2.attn.q": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "2.attn.resid_delta": {
+                "repr": "0.1523344456011749",
+                "type": "float"
+              },
+              "2.attn.v": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "2.mlp.act_in": {
+                "repr": "0.011525281929015216",
+                "type": "float"
+              },
+              "2.mlp.post_act": {
+                "repr": "0.01106307049974211",
+                "type": "float"
+              },
+              "2.mlp.resid_delta": {
+                "repr": "0.01106307049974211",
+                "type": "float"
+              },
+              "3.attn.act_in": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "3.attn.k": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "3.attn.q": {
+                "repr": "0.00697634956469991",
+                "type": "float"
+              },
+              "3.attn.resid_delta": {
+                "repr": "0.009406833104550472",
+                "type": "float"
+              },
+              "3.attn.v": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "3.mlp.act_in": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "3.mlp.post_act": {
+                "repr": "0.01198516276576811",
+                "type": "float"
+              },
+              "3.mlp.resid_delta": {
+                "repr": "0.011985163171868068",
+                "type": "float"
+              },
+              "4.attn.act_in": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.attn.k": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.attn.q": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.attn.resid_delta": {
+                "repr": "0.007425391685666624",
+                "type": "float"
+              },
+              "4.attn.v": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.mlp.act_in": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.mlp.post_act": {
+                "repr": "0.007291612467496883",
+                "type": "float"
+              },
+              "4.mlp.resid_delta": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "5.attn.act_in": {
+                "repr": "0.5037094544467711",
+                "type": "float"
+              },
+              "5.attn.k": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "5.attn.q": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "5.attn.resid_delta": {
+                "repr": "0.5482414211904587",
+                "type": "float"
+              },
+              "5.attn.v": {
+                "repr": "0.5037094544467711",
+                "type": "float"
+              },
+              "5.mlp.act_in": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "5.mlp.post_act": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "5.mlp.resid_delta": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "6.attn.act_in": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              },
+              "6.attn.q": {
+                "repr": "0.007296788490675073",
+                "type": "float"
+              }
+            },
+            "loss": {
+              "repr": "0.001426331466063857",
+              "type": "float"
+            },
+            "pair_data": {
+              "items": [
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                }
+              ],
+              "len": 34,
+              "type": "list"
+            },
+            "pair_data_connections": {
+              "items": [
+                {
+                  "items": [
+                    "list",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "list",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "list",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                }
+              ],
+              "len": 34,
+              "type": "list"
+            },
+            "task_samples": {
+              "items": [
+                {
+                  "shape": [
+                    32,
+                    223
+                  ],
+                  "type": "Tensor"
+                },
+                {
+                  "0.attn.act_in": "dict",
+                  "0.attn.k": "dict",
+                  "0.attn.q": "dict",
+                  "0.attn.resid_delta": "dict",
+                  "0.attn.v": "dict",
+                  "0.mlp.act_in": "dict",
+                  "0.mlp.post_act": "dict",
+                  "0.mlp.resid_delta": "dict",
+                  "1.attn.act_in": "dict",
+                  "1.attn.k": "dict",
+                  "1.attn.q": "dict",
+                  "1.attn.resid_delta": "dict",
+                  "1.attn.v": "dict",
+                  "1.mlp.act_in": "dict",
+                  "1.mlp.post_act": "dict",
+                  "1.mlp.resid_delta": "dict",
+                  "2.attn.act_in": "dict",
+                  "2.attn.k": "dict",
+                  "2.attn.q": "dict",
+                  "2.attn.resid_delta": "dict",
+                  "2.attn.v": "dict",
+                  "2.mlp.act_in": "dict",
+                  "2.mlp.post_act": "dict",
+                  "2.mlp.resid_delta": "dict",
+                  "3.attn.act_in": "dict",
+                  "3.attn.k": "dict",
+                  "3.attn.q": "dict",
+                  "3.attn.resid_delta": "dict",
+                  "3.attn.v": "dict",
+                  "3.mlp.act_in": "dict",
+                  "3.mlp.post_act": "dict",
+                  "3.mlp.resid_delta": "dict",
+                  "4.attn.act_in": "dict",
+                  "4.attn.k": "dict",
+                  "4.attn.q": "dict",
+                  "4.attn.resid_delta": "dict",
+                  "4.attn.v": "dict",
+                  "4.mlp.act_in": "dict",
+                  "4.mlp.post_act": "dict",
+                  "4.mlp.resid_delta": "dict",
+                  "5.attn.act_in": "dict",
+                  "5.attn.k": "dict",
+                  "5.attn.q": "dict",
+                  "5.attn.resid_delta": "dict",
+                  "5.attn.v": "dict",
+                  "5.mlp.act_in": "dict",
+                  "5.mlp.post_act": "dict",
+                  "5.mlp.resid_delta": "dict",
+                  "6.attn.act_in": "dict",
+                  "6.attn.q": "dict"
+                }
+              ],
+              "len": 2,
+              "type": "tuple"
+            },
+            "task_samples_circuit": {
+              "items": [
+                {
+                  "shape": [
+                    32,
+                    223
+                  ],
+                  "type": "Tensor"
+                },
+                {
+                  "0.attn.act_in": "dict",
+                  "0.attn.k": "dict",
+                  "0.attn.q": "dict",
+                  "0.attn.resid_delta": "dict",
+                  "0.attn.v": "dict",
+                  "0.mlp.act_in": "dict",
+                  "0.mlp.post_act": "dict",
+                  "0.mlp.resid_delta": "dict",
+                  "1.attn.act_in": "dict",
+                  "1.attn.k": "dict",
+                  "1.attn.q": "dict",
+                  "1.attn.resid_delta": "dict",
+                  "1.attn.v": "dict",
+                  "1.mlp.act_in": "dict",
+                  "1.mlp.post_act": "dict",
+                  "1.mlp.resid_delta": "dict",
+                  "2.attn.act_in": "dict",
+                  "2.attn.k": "dict",
+                  "2.attn.q": "dict",
+                  "2.attn.resid_delta": "dict",
+                  "2.attn.v": "dict",
+                  "2.mlp.act_in": "dict",
+                  "2.mlp.post_act": "dict",
+                  "2.mlp.resid_delta": "dict",
+                  "3.attn.act_in": "dict",
+                  "3.attn.k": "dict",
+                  "3.attn.q": "dict",
+                  "3.attn.resid_delta": "dict",
+                  "3.attn.v": "dict",
+                  "3.mlp.act_in": "dict",
+                  "3.mlp.post_act": "dict",
+                  "3.mlp.resid_delta": "dict",
+                  "4.attn.act_in": "dict",
+                  "4.attn.k": "dict",
+                  "4.attn.q": "dict",
+                  "4.attn.resid_delta": "dict",
+                  "4.attn.v": "dict",
+                  "4.mlp.act_in": "dict",
+                  "4.mlp.post_act": "dict",
+                  "4.mlp.resid_delta": "dict",
+                  "5.attn.act_in": "dict",
+                  "5.attn.k": "dict",
+                  "5.attn.q": "dict",
+                  "5.attn.resid_delta": "dict",
+                  "5.attn.v": "dict",
+                  "5.mlp.act_in": "dict",
+                  "5.mlp.post_act": "dict",
+                  "5.mlp.resid_delta": "dict",
+                  "6.attn.act_in": "dict",
+                  "6.attn.q": "dict"
+                }
+              ],
+              "len": 2,
+              "type": "tuple"
+            }
+          },
+          "num_total_nodes": {
+            "repr": "136192",
+            "type": "int"
+          },
+          "prune_config": {
+            "epochs": {
+              "repr": "2",
+              "type": "int"
+            },
+            "frac_not_annealing": {
+              "repr": "0.41298139095306396",
+              "type": "float"
+            },
+            "init_noise_scale": {
+              "repr": "0.0033006104092418564",
+              "type": "float"
+            },
+            "k_anneal": {
+              "repr": "0.008323239229753653",
+              "type": "float"
+            },
+            "k_coef": {
+              "repr": "2.409645967736716e-07",
+              "type": "float"
+            },
+            "lr": {
+              "repr": "0.2537845611677899",
+              "type": "float"
+            },
+            "maxk_coef": {
+              "repr": "15.539746151556178",
+              "type": "float"
+            },
+            "sq_k_coef": {
+              "repr": "2.8974255864921685e-05",
+              "type": "float"
+            },
+            "wd": {
+              "repr": "0.005954314527450791",
+              "type": "float"
+            }
+          },
+          "samples": {
+            "0.attn.resid_delta": {
+              "tensor(455)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.act_in": {
+              "tensor(180)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(205)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(207)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(824)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.post_act": {
+              "tensor(2790)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(863)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(937)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.resid_delta": {
+              "tensor(460)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(898)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(985)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.act_in": {
+              "tensor(833)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.resid_delta": {
+              "tensor(640)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(858)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "10.attn.act_in": {
+              "tensor(1013)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(460)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(898)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(985)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "10.attn.k": {
+              "tensor(657)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "10.attn.q": {
+              "tensor(657)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "10.attn.resid_delta": {
+              "tensor(83)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "10.attn.v": {
+              "tensor(663)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "11.mlp.act_in": {
+              "tensor(83)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "11.mlp.post_act": {
+              "tensor(1369)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2421)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(3137)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(341)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(500)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "11.mlp.resid_delta": {
+              "tensor(728)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(83)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.resid_delta": {
+              "tensor(640)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(858)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.act_in": {
+              "tensor(460)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.post_act": {
+              "tensor(1076)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.resid_delta": {
+              "tensor(460)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.resid_delta": {
+              "tensor(640)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.mlp.post_act": {
+              "tensor(2568)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.mlp.resid_delta": {
+              "tensor(787)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.resid_delta": {
+              "tensor(858)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "5.attn.act_in": {
+              "tensor(640)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(833)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "5.attn.resid_delta": {
+              "tensor(1013)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(596)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "5.attn.v": {
+              "tensor(57)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(73)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "6.attn.resid_delta": {
+              "tensor(787)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.attn.act_in": {
+              "tensor(543)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(858)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.attn.resid_delta": {
+              "tensor(1013)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(787)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.attn.v": {
+              "tensor(827)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "8.attn.resid_delta": {
+              "tensor(787)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "9.attn.act_in": {
+              "tensor(787)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "9.attn.resid_delta": {
+              "tensor(596)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "9.attn.v": {
+              "tensor(125)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(425)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(426)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(429)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(602)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(674)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "final_resid": {
+              "tensor(596)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(640)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(728)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(83)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            }
+          }
+        },
+        "top_level_keys": [
+          "all_loss",
+          "circuit_data",
+          "importances",
+          "num_total_nodes",
+          "prune_config",
+          "samples"
+        ]
+      }
+    },
+    "model": "csp_yolo1",
+    "nodes": [
+      {
+        "importance": 0.006738457079202997,
+        "index": 455,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "455",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "0.attn.resid_delta:455",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.714979003941597,
+        "index": 180,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "180",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:180",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.7742892330469087,
+        "index": 205,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "205",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:205",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.6991035238254902,
+        "index": 207,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "207",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:207",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.43905109068552073,
+        "index": 824,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "824",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:824",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.611108505361995,
+        "index": 863,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "863",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:863",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4397100509512563,
+        "index": 937,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "937",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:937",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.479079800982808,
+        "index": 2790,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "2790",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:2790",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.782508079395738,
+        "index": 460,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "460",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.resid_delta:460",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4160974671316961,
+        "index": 898,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "898",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.resid_delta:898",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.7823189427686292,
+        "index": 985,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "985",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.resid_delta:985",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.007361179008333946,
+        "index": 833,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "833",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:833",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.02177049405279271,
+        "index": 640,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "640",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:640",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.008183799877939279,
+        "index": 858,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "858",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:858",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.04983636410026499,
+        "index": 640,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "640",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.resid_delta:640",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.01426540271308811,
+        "index": 858,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "858",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "2.attn.resid_delta:858",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.010145938792236341,
+        "index": 460,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "460",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.act_in:460",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.009775251861017666,
+        "index": 1076,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1076",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.post_act:1076",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "2.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.00977525187049333,
+        "index": 460,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "460",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.resid_delta:460",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.008308862063985501,
+        "index": 640,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "640",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.resid_delta:640",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "3.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.014050448844603464,
+        "index": 2568,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "2568",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "3.mlp.post_act:2568",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "3.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.014050339147697847,
+        "index": 787,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "787",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "3.mlp.resid_delta:787",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "3.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.006274654717081608,
+        "index": 858,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "858",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.resid_delta:858",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "4.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.49623519324069454,
+        "index": 640,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "640",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "5.attn.act_in:640",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "5.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.006209704006988527,
+        "index": 833,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "833",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "5.attn.act_in:833",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "5.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.49623519324069454,
+        "index": 57,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "57",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "5.attn.v:57",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "5.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.007110946373725361,
+        "index": 73,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "73",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "5.attn.v:73",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "5.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.007306450331476314,
+        "index": 596,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "596",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "5.attn.resid_delta:596",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "5.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.5204543932341039,
+        "index": 1013,
+        "layer": 5,
+        "metadata": {
+          "raw_channel": "1013",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "5.attn.resid_delta:1013",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "5.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.007367555567880831,
+        "index": 787,
+        "layer": 6,
+        "metadata": {
+          "raw_channel": "787",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "6.attn.resid_delta:787",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "6.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.0072700185343282904,
+        "index": 543,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "543",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "7.attn.act_in:543",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "7.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.03872343344087418,
+        "index": 858,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "858",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "7.attn.act_in:858",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "7.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.048481289775207735,
+        "index": 827,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "827",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "7.attn.v:827",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "7.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.0492908622121366,
+        "index": 787,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "787",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "7.attn.resid_delta:787",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.010118416325350963,
+        "index": 1013,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1013",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "7.attn.resid_delta:1013",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.00830373558269563,
+        "index": 787,
+        "layer": 8,
+        "metadata": {
+          "raw_channel": "787",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "8.attn.resid_delta:787",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "8.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.0604157565638077,
+        "index": 787,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "787",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "9.attn.act_in:787",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "9.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.008251128661907936,
+        "index": 125,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "125",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:125",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.01315737425121835,
+        "index": 425,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "425",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:425",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.02929793923451228,
+        "index": 426,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "426",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:426",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.008866010366368967,
+        "index": 429,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "429",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:429",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.008999211968086963,
+        "index": 602,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "602",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:602",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.01710434459684176,
+        "index": 674,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "674",
+          "row_index": 5
+        },
+        "module": "attn",
+        "node_id": "9.attn.v:674",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "9.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.1142705900724543,
+        "index": 596,
+        "layer": 9,
+        "metadata": {
+          "raw_channel": "596",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "9.attn.resid_delta:596",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "9.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.9760324151016944,
+        "index": 460,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "460",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "10.attn.act_in:460",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "10.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4189940729005219,
+        "index": 898,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "898",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "10.attn.act_in:898",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "10.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.8180502951145172,
+        "index": 985,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "985",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "10.attn.act_in:985",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "10.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.9338111090798711,
+        "index": 1013,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "1013",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "10.attn.act_in:1013",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "10.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.7045116812683814,
+        "index": 657,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "657",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "10.attn.q:657",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "10.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.7045116812683814,
+        "index": 657,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "657",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "10.attn.k:657",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "10.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.990527033805847,
+        "index": 663,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "663",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "10.attn.v:663",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "10.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.9952542338260386,
+        "index": 83,
+        "layer": 10,
+        "metadata": {
+          "raw_channel": "83",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "10.attn.resid_delta:83",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "10.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.693312791717607,
+        "index": 83,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "83",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.act_in:83",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "11.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.00864631111892851,
+        "index": 341,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "341",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.post_act:341",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "11.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.010011577187670746,
+        "index": 500,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "500",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.post_act:500",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "11.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.024400695882261146,
+        "index": 1369,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "1369",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.post_act:1369",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "11.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.009282403694584879,
+        "index": 2421,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "2421",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.post_act:2421",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "11.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.00852502142744064,
+        "index": 3137,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "3137",
+          "row_index": 4
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.post_act:3137",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "11.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.009254727593479613,
+        "index": 83,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "83",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.resid_delta:83",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "11.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4488234276515107,
+        "index": 728,
+        "layer": 11,
+        "metadata": {
+          "raw_channel": "728",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "11.mlp.resid_delta:728",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "11.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.13366498097474144,
+        "index": 83,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "83",
+          "row_index": 0
+        },
+        "module": "unknown",
+        "node_id": "final_resid:83",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.009815998645789541,
+        "index": 596,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "596",
+          "row_index": 1
+        },
+        "module": "unknown",
+        "node_id": "final_resid:596",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.019010924460451672,
+        "index": 640,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "640",
+          "row_index": 2
+        },
+        "module": "unknown",
+        "node_id": "final_resid:640",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4478258304297924,
+        "index": 728,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "728",
+          "row_index": 3
+        },
+        "module": "unknown",
+        "node_id": "final_resid:728",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      }
+    ],
+    "source_artifact": "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo1/single_double_quote/prune_v2/64/viz_data.pt",
+    "sweep": "prune_v2",
+    "task": "single_double_quote"
+  },
+  "notes": [],
+  "status": {
+    "cache_dir": "C:\\Users\\zgzg1/data/dev/shm/cache",
+    "circuit_home": "C:\\tmp\\circuit_sparsity",
+    "error": "",
+    "import_ok": true,
+    "model_base_dir": "https://openaipublic.blob.core.windows.net/circuit-sparsity"
+  }
+}

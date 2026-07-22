@@ -1,0 +1,24 @@
+{
+  "calibration_pairs": [
+    "assign-32658bde7fc3",
+    "assign-2fa446934366",
+    "assign-ab28ac657b46",
+    "assign-c753e9743251",
+    "print-4cb0a26f125b",
+    "print-2b5155653758",
+    "print-1bce42c1f1c9",
+    "print-a083866cb690"
+  ],
+  "heldout_pairs": [
+    "paren_assign-204ce3edcc6e",
+    "paren_assign-0735dd3cddab",
+    "paren_assign-12cd55facbb3",
+    "paren_assign-c3422de02db5",
+    "handler_arg-e037742ff3f9",
+    "handler_arg-d9e86ecd317c",
+    "handler_arg-4d8ac88ee370",
+    "handler_arg-875023cd6476"
+  ],
+  "input_pair_count": 16,
+  "kept_pair_count": 16
+}

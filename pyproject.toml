@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai-plot"
+version = "0.1.0"
+description = "PLOT causal-abstraction experiments on OpenAI weight-sparse transformers"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "POT",
+  "pyvene",
+  "PyYAML",
+  "torch",
+  "transformers",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["experiments*"]
+namespaces = true

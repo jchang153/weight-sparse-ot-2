@@ -1,0 +1,167 @@
+opposite_u OK
+  handler_arg-4d8ac88ee370-double -> handler_arg-4d8ac88ee370-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -5.0536346435546875 patched_margin -3.066791534423828
+
+opposite_u FAIL
+  handler_arg-4d8ac88ee370-single -> handler_arg-4d8ac88ee370-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'handler(prefix, ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.422319412231445 patched_margin -0.16021347045898438
+
+opposite_u OK
+  handler_arg-875023cd6476-double -> handler_arg-875023cd6476-single
+  base_prompt: 'handler(prefix, ("path/to/file'
+  source_prompt: "handler(prefix, ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 6.589611053466797 source_margin -6.361974716186523 patched_margin -3.672365188598633
+
+opposite_u FAIL
+  handler_arg-875023cd6476-single -> handler_arg-875023cd6476-double
+  base_prompt: "handler(prefix, ('path/to/file"
+  source_prompt: 'handler(prefix, ("path/to/file'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -6.361974716186523 source_margin 6.589611053466797 patched_margin -0.11736297607421875
+
+opposite_u OK
+  handler_arg-d9e86ecd317c-double -> handler_arg-d9e86ecd317c-single
+  base_prompt: 'handler(prefix, ("abc'
+  source_prompt: "handler(prefix, ('abc"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 5.446969985961914 source_margin -5.903838157653809 patched_margin -3.0942020416259766
+
+opposite_u OK
+  handler_arg-d9e86ecd317c-single -> handler_arg-d9e86ecd317c-double
+  base_prompt: "handler(prefix, ('abc"
+  source_prompt: 'handler(prefix, ("abc'
+  base_sign -1 source_sign 1 patched_sign 1
+  base_margin -5.903838157653809 source_margin 5.446969985961914 patched_margin 0.39266109466552734
+
+wrong_same_position FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-4d8ac88ee370-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -5.0536346435546875 patched_margin -3.066791534423828
+
+wrong_same_position FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-875023cd6476-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -6.361974716186523 patched_margin -3.066793441772461
+
+wrong_same_position FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-d9e86ecd317c-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('abc"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -5.903838157653809 patched_margin -3.066791534423828
+
+wrong_same_position FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-e037742ff3f9-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('hello"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -6.287249565124512 patched_margin -3.066791534423828
+
+wrong_same_position OK
+  handler_arg-4d8ac88ee370-single -> handler_arg-4d8ac88ee370-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'handler(prefix, ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.422319412231445 patched_margin -0.16021347045898438
+
+wrong_same_position OK
+  handler_arg-4d8ac88ee370-single -> handler_arg-875023cd6476-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'handler(prefix, ("path/to/file'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 6.589611053466797 patched_margin -0.16021347045898438
+
+wrong_same_content FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-4d8ac88ee370-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -5.0536346435546875 patched_margin -3.066791534423828
+
+wrong_same_content FAIL
+  handler_arg-4d8ac88ee370-double -> paren_assign-12cd55facbb3-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "value = ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -4.598581314086914 patched_margin -2.9522647857666016
+
+wrong_same_content OK
+  handler_arg-4d8ac88ee370-single -> handler_arg-4d8ac88ee370-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'handler(prefix, ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.422319412231445 patched_margin -0.16021347045898438
+
+wrong_same_content OK
+  handler_arg-4d8ac88ee370-single -> paren_assign-12cd55facbb3-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'value = ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.275270462036133 patched_margin -0.14423751831054688
+
+wrong_same_content FAIL
+  handler_arg-875023cd6476-double -> handler_arg-875023cd6476-single
+  base_prompt: 'handler(prefix, ("path/to/file'
+  source_prompt: "handler(prefix, ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 6.589611053466797 source_margin -6.361974716186523 patched_margin -3.672365188598633
+
+wrong_same_content FAIL
+  handler_arg-875023cd6476-double -> paren_assign-c3422de02db5-single
+  base_prompt: 'handler(prefix, ("path/to/file'
+  source_prompt: "value = ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 6.589611053466797 source_margin -5.977258682250977 patched_margin -3.52410888671875
+
+wrong_same_content_length FAIL
+  handler_arg-4d8ac88ee370-double -> handler_arg-4d8ac88ee370-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "handler(prefix, ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -5.0536346435546875 patched_margin -3.066791534423828
+
+wrong_same_content_length FAIL
+  handler_arg-4d8ac88ee370-double -> paren_assign-12cd55facbb3-single
+  base_prompt: 'handler(prefix, ("token sequence'
+  source_prompt: "value = ('token sequence"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 4.422319412231445 source_margin -4.598581314086914 patched_margin -2.9522647857666016
+
+wrong_same_content_length OK
+  handler_arg-4d8ac88ee370-single -> handler_arg-4d8ac88ee370-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'handler(prefix, ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.422319412231445 patched_margin -0.16021347045898438
+
+wrong_same_content_length OK
+  handler_arg-4d8ac88ee370-single -> paren_assign-12cd55facbb3-double
+  base_prompt: "handler(prefix, ('token sequence"
+  source_prompt: 'value = ("token sequence'
+  base_sign -1 source_sign 1 patched_sign -1
+  base_margin -5.0536346435546875 source_margin 4.275270462036133 patched_margin -0.14423751831054688
+
+wrong_same_content_length FAIL
+  handler_arg-875023cd6476-double -> handler_arg-875023cd6476-single
+  base_prompt: 'handler(prefix, ("path/to/file'
+  source_prompt: "handler(prefix, ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 6.589611053466797 source_margin -6.361974716186523 patched_margin -3.672365188598633
+
+wrong_same_content_length FAIL
+  handler_arg-875023cd6476-double -> paren_assign-c3422de02db5-single
+  base_prompt: 'handler(prefix, ("path/to/file'
+  source_prompt: "value = ('path/to/file"
+  base_sign 1 source_sign -1 patched_sign -1
+  base_margin 6.589611053466797 source_margin -5.977258682250977 patched_margin -3.52410888671875

@@ -1,0 +1,22 @@
+{
+  "models": {
+    "B0": {
+      "graph": "X -> R -> Y",
+      "status": "certified"
+    },
+    "B1": {
+      "graph": "X -> R_mid -> R_late -> Y",
+      "status": "not_certified_strong_evidence"
+    },
+    "B2": {
+      "graph": "X -> R_mid -> R_late -> Y plus R_mid -> Y",
+      "status": "not_certified_diagnostic_only"
+    },
+    "accepted_refined": {
+      "graph": "X -> R_mid -> Y",
+      "handle": ["4.attn.resid_delta:1079"],
+      "status": "certified"
+    }
+  },
+  "primary_candidate_count": 133
+}

@@ -1,0 +1,102 @@
+{
+  "Dte_inputs_used": [],
+  "selected": {
+    "beta": 0.02,
+    "blocking_summary": {
+      "checks": {
+        "blocked_T2_source": true,
+        "blocked_output_base": false,
+        "blocked_output_base_one_to_two": true,
+        "blocked_output_base_two_to_one": false,
+        "late_T2_base": true,
+        "late_output_source": true,
+        "late_output_source_one_to_two": true,
+        "late_output_source_two_to_one": true,
+        "mid_T2_source": true,
+        "mid_output_source": true
+      },
+      "direction_counts": {
+        "one_to_two": 74,
+        "two_to_one": 101
+      },
+      "metrics": {
+        "blocked_T2_source": 1.0,
+        "blocked_output_base": 0.7428571428571429,
+        "blocked_output_base_one_to_two": 1.0,
+        "blocked_output_base_two_to_one": 0.5544554455445545,
+        "late_T2_base": 0.9485714285714286,
+        "late_output_source": 1.0,
+        "late_output_source_one_to_two": 1.0,
+        "late_output_source_two_to_one": 1.0,
+        "mean_CDE_fraction_one_to_two": 0.20857372153625767,
+        "mean_CDE_fraction_two_to_one": 0.2524101037013923,
+        "mid_T2_source": 1.0,
+        "mid_output_source": 1.0
+      },
+      "record_count": 175,
+      "score": 0.9245884016973125,
+      "validated": false,
+      "worst_gate": 0.5544554455445545
+    },
+    "blocking_validated": false,
+    "chain_eligible": true,
+    "coefficients": [
+      1.8291640001,
+      0.1708359999
+    ],
+    "config_id": "balanced-candidate-3",
+    "direct_summary": {
+      "gates": {
+        "different_R_T2_expected": 0.9485714285714286,
+        "different_R_output_expected": 1.0,
+        "one_to_two_T2_expected": 0.8783783783783784,
+        "one_to_two_output_expected": 1.0,
+        "same_R_T2_expected": 1.0,
+        "same_R_output_expected": 0.9976470588235294,
+        "same_surface_T2_expected": 0.95,
+        "same_surface_output_expected": 1.0,
+        "two_to_one_T2_expected": 1.0,
+        "two_to_one_output_expected": 1.0,
+        "wrong_numeric_T2_expected": 1.0,
+        "wrong_numeric_output_expected": 1.0,
+        "wrong_tail_T2_expected": 1.0,
+        "wrong_tail_output_expected": 1.0
+      },
+      "records": 600,
+      "relation_counts": {
+        "different_D_different_R": 100,
+        "different_D_same_R": 100,
+        "same_D": 100,
+        "same_surface_different_active_context": 100,
+        "wrong_numeric_content": 100,
+        "wrong_tail_length": 100
+      },
+      "score": 0.9838997761266669,
+      "worst_gate": 0.8783783783783784
+    },
+    "direct_validated": false,
+    "epsilon": 0.02,
+    "k": 2,
+    "rmid_overlap": [],
+    "score": 0.9542440889119896,
+    "site_ids": [
+      "7.mlp.act_in:1079",
+      "4.attn.q:1292"
+    ],
+    "source_settings": [
+      {
+        "beta": 0.02,
+        "epsilon": 0.02,
+        "k": 2,
+        "strength": 2.0
+      }
+    ],
+    "strength": 2.0,
+    "weights": [
+      0.9145820000658879,
+      0.08541799993411216
+    ],
+    "worst_gate": 0.5544554455445545
+  },
+  "selection_completed_before_Dte": true
+}

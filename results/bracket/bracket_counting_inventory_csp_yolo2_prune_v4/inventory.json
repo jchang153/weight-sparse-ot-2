@@ -1,0 +1,6327 @@
+{
+  "candidate_viz_paths": [
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v2/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v5_logitscaling/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/32/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/64/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/64/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/128/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/128/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/256/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/256/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/512/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/512/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/1024/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/1024/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/k_optim/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/k_optim/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/12/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/12/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/16/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/16/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/20/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/20/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/24/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/24/viz_data.pkl",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/32/viz_data.pt",
+    "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v3/32/viz_data.pkl"
+  ],
+  "graph": {
+    "edges": [
+      {
+        "dst": "0.mlp.post_act:4607",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 2,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "0.mlp.act_in:176",
+        "weight": 0.01144892442971468
+      },
+      {
+        "dst": "0.mlp.post_act:4016",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "0.mlp.act_in:765",
+        "weight": 0.2154681235551834
+      },
+      {
+        "dst": "0.mlp.post_act:7275",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 6,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 2
+        },
+        "src": "0.mlp.act_in:1141",
+        "weight": 0.001852118643000722
+      },
+      {
+        "dst": "0.mlp.post_act:4016",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 3
+        },
+        "src": "0.mlp.act_in:1490",
+        "weight": 0.0022882679477334023
+      },
+      {
+        "dst": "0.mlp.post_act:4016",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 1,
+          "src_location": "0.mlp.act_in",
+          "src_row": 4
+        },
+        "src": "0.mlp.act_in:1646",
+        "weight": 0.020958764478564262
+      },
+      {
+        "dst": "0.mlp.resid_delta:1675",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "0.mlp.post_act:2719",
+        "weight": 0.005583749618381262
+      },
+      {
+        "dst": "0.mlp.resid_delta:124",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "0.mlp.post_act:4016",
+        "weight": 0.4484593868255615
+      },
+      {
+        "dst": "0.mlp.resid_delta:1675",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "0.mlp.post_act:4607",
+        "weight": 0.022561142221093178
+      },
+      {
+        "dst": "0.mlp.resid_delta:1675",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 3
+        },
+        "src": "0.mlp.post_act:5116",
+        "weight": 0.048092011362314224
+      },
+      {
+        "dst": "0.mlp.resid_delta:1675",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 4
+        },
+        "src": "0.mlp.post_act:5553",
+        "weight": 0.004572759382426739
+      },
+      {
+        "dst": "0.mlp.resid_delta:124",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 5
+        },
+        "src": "0.mlp.post_act:6416",
+        "weight": -1.2905648873129394e-05
+      },
+      {
+        "dst": "0.mlp.resid_delta:1675",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "0.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 2,
+          "src_location": "0.mlp.post_act",
+          "src_row": 6
+        },
+        "src": "0.mlp.post_act:7275",
+        "weight": 0.01928137056529522
+      },
+      {
+        "dst": "1.attn.q:1521",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.q",
+          "dst_row": 1,
+          "entry_index": 3,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.006841145921498537
+      },
+      {
+        "dst": "1.attn.k:1521",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.k",
+          "dst_row": 1,
+          "entry_index": 4,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.006618970539420843
+      },
+      {
+        "dst": "1.attn.k:994",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.k",
+          "dst_row": 0,
+          "entry_index": 4,
+          "src_location": "1.attn.act_in",
+          "src_row": 4
+        },
+        "src": "1.attn.act_in:1951",
+        "weight": 0.0030359949450939894
+      },
+      {
+        "dst": "1.attn.v:1286",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 3,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.0033180678728967905
+      },
+      {
+        "dst": "1.attn.v:1521",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 4,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.0012578777968883514
+      },
+      {
+        "dst": "1.attn.v:1731",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 5,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.0016513541340827942
+      },
+      {
+        "dst": "1.attn.v:1735",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 6,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.002787180244922638
+      },
+      {
+        "dst": "1.attn.v:1737",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 7,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.0011649157386273146
+      },
+      {
+        "dst": "1.attn.v:1738",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 8,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 0
+        },
+        "src": "1.attn.act_in:124",
+        "weight": 0.0013811328681185842
+      },
+      {
+        "dst": "1.attn.v:813",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 0,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 1
+        },
+        "src": "1.attn.act_in:399",
+        "weight": 0.0012796360533684492
+      },
+      {
+        "dst": "1.attn.v:1731",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 5,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 1
+        },
+        "src": "1.attn.act_in:399",
+        "weight": 0.0013907490065321326
+      },
+      {
+        "dst": "1.attn.v:1738",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 8,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 1
+        },
+        "src": "1.attn.act_in:399",
+        "weight": 0.0005606922204606235
+      },
+      {
+        "dst": "1.attn.v:1521",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 4,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 2
+        },
+        "src": "1.attn.act_in:707",
+        "weight": 0.001993997721001506
+      },
+      {
+        "dst": "1.attn.v:1731",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 5,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 2
+        },
+        "src": "1.attn.act_in:707",
+        "weight": 0.00498962914571166
+      },
+      {
+        "dst": "1.attn.v:1735",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 6,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 2
+        },
+        "src": "1.attn.act_in:707",
+        "weight": 0.005115612410008907
+      },
+      {
+        "dst": "1.attn.v:1737",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 7,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 2
+        },
+        "src": "1.attn.act_in:707",
+        "weight": 0.0024832114577293396
+      },
+      {
+        "dst": "1.attn.v:1738",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 8,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 2
+        },
+        "src": "1.attn.act_in:707",
+        "weight": 0.002898324280977249
+      },
+      {
+        "dst": "1.attn.v:813",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 0,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.33874058723449707
+      },
+      {
+        "dst": "1.attn.v:1007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 1,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.00899448525160551
+      },
+      {
+        "dst": "1.attn.v:1183",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 2,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.018248818814754486
+      },
+      {
+        "dst": "1.attn.v:1738",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 8,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 3
+        },
+        "src": "1.attn.act_in:1647",
+        "weight": 0.6107524037361145
+      },
+      {
+        "dst": "1.attn.v:1286",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 3,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 4
+        },
+        "src": "1.attn.act_in:1951",
+        "weight": 0.005255489610135555
+      },
+      {
+        "dst": "1.attn.v:1521",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.v",
+          "dst_row": 4,
+          "entry_index": 5,
+          "src_location": "1.attn.act_in",
+          "src_row": 4
+        },
+        "src": "1.attn.act_in:1951",
+        "weight": 0.005028280429542065
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 0
+        },
+        "src": "1.attn.v:813",
+        "weight": 0.34047621488571167
+      },
+      {
+        "dst": "1.attn.resid_delta:1133",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 3,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 1
+        },
+        "src": "1.attn.v:1007",
+        "weight": 0.008994204923510551
+      },
+      {
+        "dst": "1.attn.resid_delta:130",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 2
+        },
+        "src": "1.attn.v:1183",
+        "weight": 0.004720268305391073
+      },
+      {
+        "dst": "1.attn.resid_delta:1133",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 3,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 2
+        },
+        "src": "1.attn.v:1183",
+        "weight": 0.007573685608804226
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 3
+        },
+        "src": "1.attn.v:1286",
+        "weight": 0.01091344840824604
+      },
+      {
+        "dst": "1.attn.resid_delta:775",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 2,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 4
+        },
+        "src": "1.attn.v:1521",
+        "weight": 0.009133304469287395
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 5
+        },
+        "src": "1.attn.v:1731",
+        "weight": 0.01051311194896698
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 6
+        },
+        "src": "1.attn.v:1735",
+        "weight": 0.009493078105151653
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 7
+        },
+        "src": "1.attn.v:1737",
+        "weight": 0.0042785219848155975
+      },
+      {
+        "dst": "1.attn.resid_delta:1643",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.attn.resid_delta",
+          "dst_row": 4,
+          "entry_index": 6,
+          "src_location": "1.attn.v",
+          "src_row": 8
+        },
+        "src": "1.attn.v:1738",
+        "weight": 0.6163651943206787
+      },
+      {
+        "dst": "1.mlp.post_act:5415",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.mlp.post_act",
+          "dst_row": 0,
+          "entry_index": 7,
+          "src_location": "1.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "1.mlp.act_in:1675",
+        "weight": 0.8984782099723816
+      },
+      {
+        "dst": "1.mlp.post_act:5415",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.mlp.post_act",
+          "dst_row": 0,
+          "entry_index": 7,
+          "src_location": "1.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "1.mlp.act_in:1711",
+        "weight": 3.036825180053711
+      },
+      {
+        "dst": "1.mlp.resid_delta:124",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 8,
+          "src_location": "1.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "1.mlp.post_act:5415",
+        "weight": 1.3843462467193604
+      },
+      {
+        "dst": "1.mlp.resid_delta:728",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "1.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 8,
+          "src_location": "1.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "1.mlp.post_act:5415",
+        "weight": 0.5546033978462219
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 2
+        },
+        "src": "2.attn.act_in:581",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 3
+        },
+        "src": "2.attn.act_in:728",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 6
+        },
+        "src": "2.attn.act_in:775",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 7
+        },
+        "src": "2.attn.act_in:785",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 8
+        },
+        "src": "2.attn.act_in:826",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 11
+        },
+        "src": "2.attn.act_in:1133",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 17
+        },
+        "src": "2.attn.act_in:1850",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.q:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.q",
+          "dst_row": 0,
+          "entry_index": 9,
+          "src_location": "2.attn.act_in",
+          "src_row": 18
+        },
+        "src": "2.attn.act_in:2020",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 0
+        },
+        "src": "2.attn.act_in:124",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 3
+        },
+        "src": "2.attn.act_in:728",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 5
+        },
+        "src": "2.attn.act_in:771",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 7
+        },
+        "src": "2.attn.act_in:785",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 9
+        },
+        "src": "2.attn.act_in:1070",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 10
+        },
+        "src": "2.attn.act_in:1087",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 11
+        },
+        "src": "2.attn.act_in:1133",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 13
+        },
+        "src": "2.attn.act_in:1430",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.k:2007",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.k",
+          "dst_row": 0,
+          "entry_index": 10,
+          "src_location": "2.attn.act_in",
+          "src_row": 14
+        },
+        "src": "2.attn.act_in:1643",
+        "weight": 4.234560966491699
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 1
+        },
+        "src": "2.attn.act_in:549",
+        "weight": 0.015202343463897705
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 2
+        },
+        "src": "2.attn.act_in:581",
+        "weight": 0.019706571474671364
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 4
+        },
+        "src": "2.attn.act_in:759",
+        "weight": 2.9190726280212402
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 6
+        },
+        "src": "2.attn.act_in:775",
+        "weight": 0.014017574489116669
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 8
+        },
+        "src": "2.attn.act_in:826",
+        "weight": 1.2319351434707642
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 12
+        },
+        "src": "2.attn.act_in:1141",
+        "weight": 0.009769539348781109
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 15
+        },
+        "src": "2.attn.act_in:1711",
+        "weight": 1.4805717468261719
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 16
+        },
+        "src": "2.attn.act_in:1822",
+        "weight": -0.0018784095300361514
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 17
+        },
+        "src": "2.attn.act_in:1850",
+        "weight": 0.010177494026720524
+      },
+      {
+        "dst": "2.attn.v:2012",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.v",
+          "dst_row": 0,
+          "entry_index": 11,
+          "src_location": "2.attn.act_in",
+          "src_row": 18
+        },
+        "src": "2.attn.act_in:2020",
+        "weight": 0.009493211284279823
+      },
+      {
+        "dst": "2.attn.resid_delta:1249",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 12,
+          "src_location": "2.attn.v",
+          "src_row": 0
+        },
+        "src": "2.attn.v:2012",
+        "weight": 4.14536714553833
+      },
+      {
+        "dst": "2.mlp.post_act:2122",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.post_act",
+          "dst_row": 0,
+          "entry_index": 13,
+          "src_location": "2.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "2.mlp.act_in:1249",
+        "weight": 0.004505719058215618
+      },
+      {
+        "dst": "2.mlp.post_act:5676",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.post_act",
+          "dst_row": 1,
+          "entry_index": 13,
+          "src_location": "2.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "2.mlp.act_in:1249",
+        "weight": 3.6610524654388428
+      },
+      {
+        "dst": "2.mlp.resid_delta:801",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 14,
+          "src_location": "2.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "2.mlp.post_act:2122",
+        "weight": 0.004587454255670309
+      },
+      {
+        "dst": "2.mlp.resid_delta:1079",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 14,
+          "src_location": "2.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "2.mlp.post_act:5676",
+        "weight": 0.0289098359644413
+      },
+      {
+        "dst": "2.mlp.resid_delta:1850",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "2.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 14,
+          "src_location": "2.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "2.mlp.post_act:5676",
+        "weight": 2.202009677886963
+      },
+      {
+        "dst": "3.attn.q:1363",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.q",
+          "dst_row": 0,
+          "entry_index": 15,
+          "src_location": "3.attn.act_in",
+          "src_row": 4
+        },
+        "src": "3.attn.act_in:801",
+        "weight": 2.7494282722473145
+      },
+      {
+        "dst": "3.attn.q:1386",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.q",
+          "dst_row": 1,
+          "entry_index": 15,
+          "src_location": "3.attn.act_in",
+          "src_row": 6
+        },
+        "src": "3.attn.act_in:1249",
+        "weight": 0.18245595693588257
+      },
+      {
+        "dst": "3.attn.k:1363",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 0,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 0
+        },
+        "src": "3.attn.act_in:130",
+        "weight": 2.7367618083953857
+      },
+      {
+        "dst": "3.attn.k:1363",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 0,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 1
+        },
+        "src": "3.attn.act_in:347",
+        "weight": 2.7367618083953857
+      },
+      {
+        "dst": "3.attn.k:1386",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 1,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 1
+        },
+        "src": "3.attn.act_in:347",
+        "weight": 0.19530001282691956
+      },
+      {
+        "dst": "3.attn.k:1363",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 0,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 4
+        },
+        "src": "3.attn.act_in:801",
+        "weight": 2.7367618083953857
+      },
+      {
+        "dst": "3.attn.k:1386",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 1,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 6
+        },
+        "src": "3.attn.act_in:1249",
+        "weight": 0.19530001282691956
+      },
+      {
+        "dst": "3.attn.k:1363",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 0,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 7
+        },
+        "src": "3.attn.act_in:1643",
+        "weight": 2.7367618083953857
+      },
+      {
+        "dst": "3.attn.k:1386",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 1,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 7
+        },
+        "src": "3.attn.act_in:1643",
+        "weight": 0.19530001282691956
+      },
+      {
+        "dst": "3.attn.k:1386",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.k",
+          "dst_row": 1,
+          "entry_index": 16,
+          "src_location": "3.attn.act_in",
+          "src_row": 8
+        },
+        "src": "3.attn.act_in:1711",
+        "weight": 0.19530001282691956
+      },
+      {
+        "dst": "3.attn.v:1365",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 2
+        },
+        "src": "3.attn.act_in:581",
+        "weight": 0.005125103984028101
+      },
+      {
+        "dst": "3.attn.v:1371",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 2
+        },
+        "src": "3.attn.act_in:581",
+        "weight": 0.005620323121547699
+      },
+      {
+        "dst": "3.attn.v:1365",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 3
+        },
+        "src": "3.attn.act_in:759",
+        "weight": 0.012391002848744392
+      },
+      {
+        "dst": "3.attn.v:1371",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 3
+        },
+        "src": "3.attn.act_in:759",
+        "weight": 0.006884445436298847
+      },
+      {
+        "dst": "3.attn.v:1365",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 5
+        },
+        "src": "3.attn.act_in:826",
+        "weight": 0.0026251450181007385
+      },
+      {
+        "dst": "3.attn.v:1371",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 5
+        },
+        "src": "3.attn.act_in:826",
+        "weight": 0.0029072612524032593
+      },
+      {
+        "dst": "3.attn.v:1385",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 2,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 6
+        },
+        "src": "3.attn.act_in:1249",
+        "weight": 0.47937071323394775
+      },
+      {
+        "dst": "3.attn.v:1385",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 2,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 8
+        },
+        "src": "3.attn.act_in:1711",
+        "weight": 0.01798548549413681
+      },
+      {
+        "dst": "3.attn.v:1365",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 9
+        },
+        "src": "3.attn.act_in:1822",
+        "weight": -0.007069321349263191
+      },
+      {
+        "dst": "3.attn.v:1371",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 9
+        },
+        "src": "3.attn.act_in:1822",
+        "weight": -0.0046117110177874565
+      },
+      {
+        "dst": "3.attn.v:1365",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 0,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 10
+        },
+        "src": "3.attn.act_in:1850",
+        "weight": 0.4960956871509552
+      },
+      {
+        "dst": "3.attn.v:1371",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.v",
+          "dst_row": 1,
+          "entry_index": 17,
+          "src_location": "3.attn.act_in",
+          "src_row": 10
+        },
+        "src": "3.attn.act_in:1850",
+        "weight": 0.3289337754249573
+      },
+      {
+        "dst": "3.attn.resid_delta:1249",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.resid_delta",
+          "dst_row": 1,
+          "entry_index": 18,
+          "src_location": "3.attn.v",
+          "src_row": 0
+        },
+        "src": "3.attn.v:1365",
+        "weight": 1.1659663915634155
+      },
+      {
+        "dst": "3.attn.resid_delta:1249",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.resid_delta",
+          "dst_row": 1,
+          "entry_index": 18,
+          "src_location": "3.attn.v",
+          "src_row": 1
+        },
+        "src": "3.attn.v:1371",
+        "weight": 0.7865192890167236
+      },
+      {
+        "dst": "3.attn.resid_delta:1079",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 18,
+          "src_location": "3.attn.v",
+          "src_row": 2
+        },
+        "src": "3.attn.v:1385",
+        "weight": 0.029812270775437355
+      },
+      {
+        "dst": "3.attn.resid_delta:1249",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "3.attn.resid_delta",
+          "dst_row": 1,
+          "entry_index": 18,
+          "src_location": "3.attn.v",
+          "src_row": 2
+        },
+        "src": "3.attn.v:1385",
+        "weight": 0.27043798565864563
+      },
+      {
+        "dst": "4.attn.q:1284",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "4.attn.q",
+          "dst_row": 0,
+          "entry_index": 19,
+          "src_location": "4.attn.act_in",
+          "src_row": 0
+        },
+        "src": "4.attn.act_in:1249",
+        "weight": 1.315906047821045
+      },
+      {
+        "dst": "4.attn.q:1292",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "4.attn.q",
+          "dst_row": 1,
+          "entry_index": 19,
+          "src_location": "4.attn.act_in",
+          "src_row": 0
+        },
+        "src": "4.attn.act_in:1249",
+        "weight": 1.1087452173233032
+      },
+      {
+        "dst": "4.attn.k:1292",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "4.attn.k",
+          "dst_row": 1,
+          "entry_index": 20,
+          "src_location": "4.attn.act_in",
+          "src_row": 1
+        },
+        "src": "4.attn.act_in:1675",
+        "weight": 0.9305121898651123
+      },
+      {
+        "dst": "4.attn.v:1294",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "4.attn.v",
+          "dst_row": 0,
+          "entry_index": 21,
+          "src_location": "4.attn.act_in",
+          "src_row": 1
+        },
+        "src": "4.attn.act_in:1675",
+        "weight": 0.0044019208289682865
+      },
+      {
+        "dst": "4.attn.resid_delta:1079",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "4.attn.resid_delta",
+          "dst_row": 0,
+          "entry_index": 22,
+          "src_location": "4.attn.v",
+          "src_row": 0
+        },
+        "src": "4.attn.v:1294",
+        "weight": 0.004401832818984985
+      },
+      {
+        "dst": "7.mlp.post_act:2511",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 3,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "7.mlp.act_in:1079",
+        "weight": 0.7781551480293274
+      },
+      {
+        "dst": "7.mlp.post_act:4133",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 5,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "7.mlp.act_in:1079",
+        "weight": 0.04689203202724457
+      },
+      {
+        "dst": "7.mlp.post_act:6561",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 8,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "7.mlp.act_in:1079",
+        "weight": 0.009549843147397041
+      },
+      {
+        "dst": "7.mlp.post_act:7058",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 10,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "7.mlp.act_in:1079",
+        "weight": 0.06271792948246002
+      },
+      {
+        "dst": "7.mlp.post_act:7618",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 11,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 0
+        },
+        "src": "7.mlp.act_in:1079",
+        "weight": 0.0009624895756132901
+      },
+      {
+        "dst": "7.mlp.post_act:2511",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 3,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "7.mlp.act_in:1249",
+        "weight": 0.0191792044788599
+      },
+      {
+        "dst": "7.mlp.post_act:4133",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 5,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "7.mlp.act_in:1249",
+        "weight": 0.2599487006664276
+      },
+      {
+        "dst": "7.mlp.post_act:6323",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 7,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 1
+        },
+        "src": "7.mlp.act_in:1249",
+        "weight": 0.0028368947096168995
+      },
+      {
+        "dst": "7.mlp.post_act:2511",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 3,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 2
+        },
+        "src": "7.mlp.act_in:1974",
+        "weight": 0.013045198284089565
+      },
+      {
+        "dst": "7.mlp.post_act:6720",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.post_act",
+          "dst_row": 9,
+          "entry_index": 23,
+          "src_location": "7.mlp.act_in",
+          "src_row": 2
+        },
+        "src": "7.mlp.act_in:1974",
+        "weight": -0.0001078483765013516
+      },
+      {
+        "dst": "7.mlp.resid_delta:648",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 0
+        },
+        "src": "7.mlp.post_act:1482",
+        "weight": 0.013213337399065495
+      },
+      {
+        "dst": "7.mlp.resid_delta:648",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "7.mlp.post_act:2199",
+        "weight": 0.008422664366662502
+      },
+      {
+        "dst": "7.mlp.resid_delta:855",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 3,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "7.mlp.post_act:2199",
+        "weight": 0.007529485039412975
+      },
+      {
+        "dst": "7.mlp.resid_delta:1200",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 4,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 1
+        },
+        "src": "7.mlp.post_act:2199",
+        "weight": 0.005348170176148415
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "7.mlp.post_act:2288",
+        "weight": 0.00391254760324955
+      },
+      {
+        "dst": "7.mlp.resid_delta:648",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 2,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 2
+        },
+        "src": "7.mlp.post_act:2288",
+        "weight": 0.0007762139430269599
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 3
+        },
+        "src": "7.mlp.post_act:2511",
+        "weight": 0.05075887590646744
+      },
+      {
+        "dst": "7.mlp.resid_delta:855",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 3,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 3
+        },
+        "src": "7.mlp.post_act:2511",
+        "weight": 0.009454663842916489
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 4
+        },
+        "src": "7.mlp.post_act:3082",
+        "weight": 0.020228087902069092
+      },
+      {
+        "dst": "7.mlp.resid_delta:607",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 1,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 5
+        },
+        "src": "7.mlp.post_act:4133",
+        "weight": 0.021494511514902115
+      },
+      {
+        "dst": "7.mlp.resid_delta:1200",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 4,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 5
+        },
+        "src": "7.mlp.post_act:4133",
+        "weight": 0.0928199291229248
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 6
+        },
+        "src": "7.mlp.post_act:6250",
+        "weight": 0.010326704010367393
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 7
+        },
+        "src": "7.mlp.post_act:6323",
+        "weight": 0.07949372380971909
+      },
+      {
+        "dst": "7.mlp.resid_delta:2041",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 6,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 8
+        },
+        "src": "7.mlp.post_act:6561",
+        "weight": 0.035397812724113464
+      },
+      {
+        "dst": "7.mlp.resid_delta:1339",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 5,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 9
+        },
+        "src": "7.mlp.post_act:6720",
+        "weight": 0.0203273743391037
+      },
+      {
+        "dst": "7.mlp.resid_delta:1200",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 4,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 10
+        },
+        "src": "7.mlp.post_act:7058",
+        "weight": 0.037550803273916245
+      },
+      {
+        "dst": "7.mlp.resid_delta:431",
+        "edge_kind": "pair_data",
+        "metadata": {
+          "dst_location": "7.mlp.resid_delta",
+          "dst_row": 0,
+          "entry_index": 24,
+          "src_location": "7.mlp.post_act",
+          "src_row": 11
+        },
+        "src": "7.mlp.post_act:7618",
+        "weight": 0.004700429737567902
+      }
+    ],
+    "k": null,
+    "metadata": {
+      "extraction_warning": "Best-effort extraction. Verify node/edge semantics against circuit_sparsity/viz.py and the Streamlit visualizer before using this graph for claims.",
+      "parsed_pair_data_entries": 25,
+      "retained_node_locations": [
+        "0.attn.act_in",
+        "0.attn.k",
+        "0.attn.q",
+        "0.attn.resid_delta",
+        "0.attn.v",
+        "0.mlp.act_in",
+        "0.mlp.post_act",
+        "0.mlp.resid_delta",
+        "1.attn.act_in",
+        "1.attn.k",
+        "1.attn.q",
+        "1.attn.resid_delta",
+        "1.attn.v",
+        "1.mlp.act_in",
+        "1.mlp.post_act",
+        "1.mlp.resid_delta",
+        "2.attn.act_in",
+        "2.attn.k",
+        "2.attn.q",
+        "2.attn.resid_delta",
+        "2.attn.v",
+        "2.mlp.act_in",
+        "2.mlp.post_act",
+        "2.mlp.resid_delta",
+        "3.attn.act_in",
+        "3.attn.k",
+        "3.attn.q",
+        "3.attn.resid_delta",
+        "3.attn.v",
+        "3.mlp.act_in",
+        "3.mlp.post_act",
+        "3.mlp.resid_delta",
+        "4.attn.act_in",
+        "4.attn.k",
+        "4.attn.q",
+        "4.attn.resid_delta",
+        "4.attn.v",
+        "4.mlp.act_in",
+        "4.mlp.post_act",
+        "4.mlp.resid_delta",
+        "5.attn.act_in",
+        "5.attn.k",
+        "5.attn.q",
+        "5.attn.resid_delta",
+        "5.attn.v",
+        "5.mlp.act_in",
+        "5.mlp.post_act",
+        "5.mlp.resid_delta",
+        "6.attn.act_in",
+        "6.attn.k",
+        "6.attn.q",
+        "6.attn.resid_delta",
+        "6.attn.v",
+        "6.mlp.act_in",
+        "6.mlp.post_act",
+        "6.mlp.resid_delta",
+        "7.attn.act_in",
+        "7.attn.k",
+        "7.attn.q",
+        "7.attn.resid_delta",
+        "7.attn.v",
+        "7.mlp.act_in",
+        "7.mlp.post_act",
+        "7.mlp.resid_delta",
+        "final_resid"
+      ],
+      "viz_data_summary": {
+        "summary": {
+          "all_loss": {
+            "items": [
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.006126155145466328",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.0016942874062806368",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "0",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.0552220419049263",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "5",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.010870854370296001",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              },
+              {
+                "items": [
+                  {
+                    "repr": "6",
+                    "type": "int"
+                  },
+                  {
+                    "repr": "0.0642370730638504",
+                    "type": "float"
+                  }
+                ],
+                "len": 2,
+                "type": "tuple"
+              }
+            ],
+            "len": 13,
+            "type": "list"
+          },
+          "circuit_data": {
+            "0.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "0.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.act_in": {
+              "shape": [
+                5
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.post_act": {
+              "shape": [
+                7
+              ],
+              "type": "Tensor"
+            },
+            "0.mlp.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.act_in": {
+              "shape": [
+                5
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.k": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.q": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.resid_delta": {
+              "shape": [
+                5
+              ],
+              "type": "Tensor"
+            },
+            "1.attn.v": {
+              "shape": [
+                9
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.act_in": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.post_act": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "1.mlp.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.act_in": {
+              "shape": [
+                19
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.k": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.q": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.resid_delta": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.attn.v": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.act_in": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.post_act": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "2.mlp.resid_delta": {
+              "shape": [
+                3
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.act_in": {
+              "shape": [
+                11
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.k": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.q": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.resid_delta": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "3.attn.v": {
+              "shape": [
+                3
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "3.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.act_in": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.k": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.q": {
+              "shape": [
+                2
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.resid_delta": {
+              "shape": [
+                3
+              ],
+              "type": "Tensor"
+            },
+            "4.attn.v": {
+              "shape": [
+                1
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "4.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.k": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.attn.v": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.post_act": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "5.mlp.resid_delta": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "6.attn.act_in": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            },
+            "6.attn.q": {
+              "shape": [
+                0
+              ],
+              "type": "Tensor"
+            }
+          },
+          "importances": {
+            "beeg_model_config": {
+              "activation_type": {
+                "repr": "'gelu'",
+                "type": "str"
+              },
+              "afrac": {
+                "repr": "0.25",
+                "type": "float"
+              },
+              "afrac_approx": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "afrac_loctypes": {
+                "repr": "'attn_in,attn_out,mlp_in,mlp_out,mlp_neuron,attn_v,attn_k,attn_q'",
+                "type": "str"
+              },
+              "bias": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "bigram_table_rank": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "block_size": {
+                "repr": "1024",
+                "type": "int"
+              },
+              "d_head": {
+                "repr": "16",
+                "type": "int"
+              },
+              "d_mlp": {
+                "repr": "8192",
+                "type": "int"
+              },
+              "d_model": {
+                "repr": "2048",
+                "type": "int"
+              },
+              "d_pos_emb": {
+                "repr": "32",
+                "type": "int"
+              },
+              "debug_exact_topk": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "debug_nans": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "dropout": {
+                "repr": "0.0",
+                "type": "float"
+              },
+              "dropout_cat_pos_emb": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "enable_bigram_table": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "enable_sparse_kernels": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "expansion_factor": {
+                "repr": "8",
+                "type": "int"
+              },
+              "expansion_factor_mlp": {
+                "repr": "8",
+                "type": "int"
+              },
+              "flash": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "grad_checkpointing": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "ignore_dw_grad": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "learnable_bigram_table": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "ln_bias": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "n_embd": {
+                "repr": "None",
+                "type": "NoneType"
+              },
+              "n_head": {
+                "repr": "128",
+                "type": "int"
+              },
+              "n_layer": {
+                "repr": "8",
+                "type": "int"
+              },
+              "pfrac": {
+                "repr": "0.0625",
+                "type": "float"
+              },
+              "residual_activation_type": {
+                "repr": "'identity'",
+                "type": "str"
+              },
+              "rms_norm": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "rtopk": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "sink": {
+                "repr": "True",
+                "type": "bool"
+              },
+              "sinusoidal_cat_pos_emb": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "sparse_matmul_impl": {
+                "repr": "'cuda'",
+                "type": "str"
+              },
+              "tied_unembed": {
+                "repr": "False",
+                "type": "bool"
+              },
+              "tokenizer_name": {
+                "repr": "'tinypython_2k'",
+                "type": "str"
+              },
+              "vocab_size": {
+                "repr": "2048",
+                "type": "int"
+              }
+            },
+            "ch_interv_losses": {
+              "0.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "0.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "0.mlp.act_in": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 5,
+                "type": "list"
+              },
+              "0.mlp.post_act": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 7,
+                "type": "list"
+              },
+              "0.mlp.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "1.attn.act_in": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 5,
+                "type": "list"
+              },
+              "1.attn.k": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "1.attn.q": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "1.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 5,
+                "type": "list"
+              },
+              "1.attn.v": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 9,
+                "type": "list"
+              },
+              "1.mlp.act_in": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "1.mlp.post_act": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "1.mlp.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "2.attn.act_in": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 19,
+                "type": "list"
+              },
+              "2.attn.k": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.attn.q": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.attn.resid_delta": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.attn.v": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.mlp.act_in": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "2.mlp.post_act": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "2.mlp.resid_delta": {
+                "items": [
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 3,
+                "type": "list"
+              },
+              "3.attn.act_in": {
+                "items": [
+                  "float",
+                  "float",
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 11,
+                "type": "list"
+              },
+              "3.attn.k": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "3.attn.q": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "3.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "3.attn.v": {
+                "items": [
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 3,
+                "type": "list"
+              },
+              "3.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "3.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.attn.act_in": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "4.attn.k": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "4.attn.q": {
+                "items": [
+                  "float",
+                  "float"
+                ],
+                "len": 2,
+                "type": "list"
+              },
+              "4.attn.resid_delta": {
+                "items": [
+                  "float",
+                  "float",
+                  "float"
+                ],
+                "len": 3,
+                "type": "list"
+              },
+              "4.attn.v": {
+                "items": [
+                  "float"
+                ],
+                "len": 1,
+                "type": "list"
+              },
+              "4.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "4.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.k": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.attn.v": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.mlp.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.mlp.post_act": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "5.mlp.resid_delta": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "6.attn.act_in": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              },
+              "6.attn.q": {
+                "items": [],
+                "len": 0,
+                "type": "list"
+              }
+            },
+            "interv_loss": {
+              "repr": "0.2276479514936606",
+              "type": "float"
+            },
+            "layer_interv_losses": {
+              "0.attn": {
+                "repr": "2.5071186621983848",
+                "type": "float"
+              },
+              "0.mlp": {
+                "repr": "2.0741455356280007",
+                "type": "float"
+              },
+              "1.attn": {
+                "repr": "4.233381827672322",
+                "type": "float"
+              },
+              "1.mlp": {
+                "repr": "3.6440475384394326",
+                "type": "float"
+              },
+              "2.attn": {
+                "repr": "4.303682883580525",
+                "type": "float"
+              },
+              "2.mlp": {
+                "repr": "3.8082464933395386",
+                "type": "float"
+              },
+              "3.attn": {
+                "repr": "2.06590336561203",
+                "type": "float"
+              },
+              "3.mlp": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "4.attn": {
+                "repr": "3.8250110944112143",
+                "type": "float"
+              },
+              "4.mlp": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "5.attn": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "5.mlp": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "6.attn": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "6.mlp": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "7.attn": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "7.mlp": {
+                "repr": "6.895121812820435",
+                "type": "float"
+              }
+            },
+            "loc_interv_losses": {
+              "0.attn.act_in": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "0.attn.k": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "0.attn.q": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "0.attn.resid_delta": {
+                "repr": "2.5071186621983848",
+                "type": "float"
+              },
+              "0.attn.v": {
+                "repr": "0.2276479514936606",
+                "type": "float"
+              },
+              "0.mlp.act_in": {
+                "repr": "0.7255201091368993",
+                "type": "float"
+              },
+              "0.mlp.post_act": {
+                "repr": "2.074145952860514",
+                "type": "float"
+              },
+              "0.mlp.resid_delta": {
+                "repr": "2.0741455356280007",
+                "type": "float"
+              },
+              "1.attn.act_in": {
+                "repr": "2.384605328241984",
+                "type": "float"
+              },
+              "1.attn.k": {
+                "repr": "0.23471097896496454",
+                "type": "float"
+              },
+              "1.attn.q": {
+                "repr": "0.23471097896496454",
+                "type": "float"
+              },
+              "1.attn.resid_delta": {
+                "repr": "4.23602310816447",
+                "type": "float"
+              },
+              "1.attn.v": {
+                "repr": "2.394908607006073",
+                "type": "float"
+              },
+              "1.mlp.act_in": {
+                "repr": "3.621599276860555",
+                "type": "float"
+              },
+              "1.mlp.post_act": {
+                "repr": "3.6669474045435586",
+                "type": "float"
+              },
+              "1.mlp.resid_delta": {
+                "repr": "3.666947364807129",
+                "type": "float"
+              },
+              "2.attn.act_in": {
+                "repr": "4.293014049530029",
+                "type": "float"
+              },
+              "2.attn.k": {
+                "repr": "4.459505319595337",
+                "type": "float"
+              },
+              "2.attn.q": {
+                "repr": "4.427945137023926",
+                "type": "float"
+              },
+              "2.attn.resid_delta": {
+                "repr": "4.353988170623779",
+                "type": "float"
+              },
+              "2.attn.v": {
+                "repr": "4.323722839355469",
+                "type": "float"
+              },
+              "2.mlp.act_in": {
+                "repr": "3.9919702212015786",
+                "type": "float"
+              },
+              "2.mlp.post_act": {
+                "repr": "3.75151260693868",
+                "type": "float"
+              },
+              "2.mlp.resid_delta": {
+                "repr": "3.7491573890050254",
+                "type": "float"
+              },
+              "3.attn.act_in": {
+                "repr": "2.8737634817759194",
+                "type": "float"
+              },
+              "3.attn.k": {
+                "repr": "3.1810381412506104",
+                "type": "float"
+              },
+              "3.attn.q": {
+                "repr": "3.1810381412506104",
+                "type": "float"
+              },
+              "3.attn.resid_delta": {
+                "repr": "2.051182727018992",
+                "type": "float"
+              },
+              "3.attn.v": {
+                "repr": "2.9184759060541787",
+                "type": "float"
+              },
+              "3.mlp.act_in": {
+                "repr": "0.22742758318781853",
+                "type": "float"
+              },
+              "3.mlp.post_act": {
+                "repr": "0.22742758318781853",
+                "type": "float"
+              },
+              "3.mlp.resid_delta": {
+                "repr": "0.22742758318781853",
+                "type": "float"
+              },
+              "4.attn.act_in": {
+                "repr": "4.386808474858602",
+                "type": "float"
+              },
+              "4.attn.k": {
+                "repr": "4.296624501546224",
+                "type": "float"
+              },
+              "4.attn.q": {
+                "repr": "4.296624501546224",
+                "type": "float"
+              },
+              "4.attn.resid_delta": {
+                "repr": "3.758713404337565",
+                "type": "float"
+              },
+              "4.attn.v": {
+                "repr": "0.2353570175667604",
+                "type": "float"
+              },
+              "4.mlp.act_in": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "4.mlp.post_act": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "4.mlp.resid_delta": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.attn.act_in": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.attn.k": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.attn.q": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.attn.resid_delta": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.attn.v": {
+                "repr": "0.22652282069126764",
+                "type": "float"
+              },
+              "5.mlp.act_in": {
+                "repr": "0.2283106086154779",
+                "type": "float"
+              },
+              "5.mlp.post_act": {
+                "repr": "0.2283106086154779",
+                "type": "float"
+              },
+              "5.mlp.resid_delta": {
+                "repr": "0.2283106086154779",
+                "type": "float"
+              },
+              "6.attn.act_in": {
+                "repr": "0.2283106086154779",
+                "type": "float"
+              },
+              "6.attn.q": {
+                "repr": "0.2283106086154779",
+                "type": "float"
+              }
+            },
+            "loss": {
+              "repr": "0.09665115922689438",
+              "type": "float"
+            },
+            "pair_data": {
+              "items": [
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                }
+              ],
+              "len": 25,
+              "type": "list"
+            },
+            "pair_data_connections": {
+              "items": [
+                {
+                  "items": [
+                    "list",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                },
+                {
+                  "items": [
+                    "Tensor",
+                    "list",
+                    "list",
+                    "tuple"
+                  ],
+                  "len": 4,
+                  "type": "list"
+                }
+              ],
+              "len": 25,
+              "type": "list"
+            },
+            "task_samples": {
+              "items": [
+                {
+                  "shape": [
+                    32,
+                    237
+                  ],
+                  "type": "Tensor"
+                },
+                {
+                  "0.attn.act_in": "dict",
+                  "0.attn.k": "dict",
+                  "0.attn.q": "dict",
+                  "0.attn.resid_delta": "dict",
+                  "0.attn.v": "dict",
+                  "0.mlp.act_in": "dict",
+                  "0.mlp.post_act": "dict",
+                  "0.mlp.resid_delta": "dict",
+                  "1.attn.act_in": "dict",
+                  "1.attn.k": "dict",
+                  "1.attn.q": "dict",
+                  "1.attn.resid_delta": "dict",
+                  "1.attn.v": "dict",
+                  "1.mlp.act_in": "dict",
+                  "1.mlp.post_act": "dict",
+                  "1.mlp.resid_delta": "dict",
+                  "2.attn.act_in": "dict",
+                  "2.attn.k": "dict",
+                  "2.attn.q": "dict",
+                  "2.attn.resid_delta": "dict",
+                  "2.attn.v": "dict",
+                  "2.mlp.act_in": "dict",
+                  "2.mlp.post_act": "dict",
+                  "2.mlp.resid_delta": "dict",
+                  "3.attn.act_in": "dict",
+                  "3.attn.k": "dict",
+                  "3.attn.q": "dict",
+                  "3.attn.resid_delta": "dict",
+                  "3.attn.v": "dict",
+                  "3.mlp.act_in": "dict",
+                  "3.mlp.post_act": "dict",
+                  "3.mlp.resid_delta": "dict",
+                  "4.attn.act_in": "dict",
+                  "4.attn.k": "dict",
+                  "4.attn.q": "dict",
+                  "4.attn.resid_delta": "dict",
+                  "4.attn.v": "dict",
+                  "4.mlp.act_in": "dict",
+                  "4.mlp.post_act": "dict",
+                  "4.mlp.resid_delta": "dict",
+                  "5.attn.act_in": "dict",
+                  "5.attn.k": "dict",
+                  "5.attn.q": "dict",
+                  "5.attn.resid_delta": "dict",
+                  "5.attn.v": "dict",
+                  "5.mlp.act_in": "dict",
+                  "5.mlp.post_act": "dict",
+                  "5.mlp.resid_delta": "dict",
+                  "6.attn.act_in": "dict",
+                  "6.attn.q": "dict"
+                }
+              ],
+              "len": 2,
+              "type": "tuple"
+            },
+            "task_samples_circuit": {
+              "items": [
+                {
+                  "shape": [
+                    32,
+                    237
+                  ],
+                  "type": "Tensor"
+                },
+                {
+                  "0.attn.act_in": "dict",
+                  "0.attn.k": "dict",
+                  "0.attn.q": "dict",
+                  "0.attn.resid_delta": "dict",
+                  "0.attn.v": "dict",
+                  "0.mlp.act_in": "dict",
+                  "0.mlp.post_act": "dict",
+                  "0.mlp.resid_delta": "dict",
+                  "1.attn.act_in": "dict",
+                  "1.attn.k": "dict",
+                  "1.attn.q": "dict",
+                  "1.attn.resid_delta": "dict",
+                  "1.attn.v": "dict",
+                  "1.mlp.act_in": "dict",
+                  "1.mlp.post_act": "dict",
+                  "1.mlp.resid_delta": "dict",
+                  "2.attn.act_in": "dict",
+                  "2.attn.k": "dict",
+                  "2.attn.q": "dict",
+                  "2.attn.resid_delta": "dict",
+                  "2.attn.v": "dict",
+                  "2.mlp.act_in": "dict",
+                  "2.mlp.post_act": "dict",
+                  "2.mlp.resid_delta": "dict",
+                  "3.attn.act_in": "dict",
+                  "3.attn.k": "dict",
+                  "3.attn.q": "dict",
+                  "3.attn.resid_delta": "dict",
+                  "3.attn.v": "dict",
+                  "3.mlp.act_in": "dict",
+                  "3.mlp.post_act": "dict",
+                  "3.mlp.resid_delta": "dict",
+                  "4.attn.act_in": "dict",
+                  "4.attn.k": "dict",
+                  "4.attn.q": "dict",
+                  "4.attn.resid_delta": "dict",
+                  "4.attn.v": "dict",
+                  "4.mlp.act_in": "dict",
+                  "4.mlp.post_act": "dict",
+                  "4.mlp.resid_delta": "dict",
+                  "5.attn.act_in": "dict",
+                  "5.attn.k": "dict",
+                  "5.attn.q": "dict",
+                  "5.attn.resid_delta": "dict",
+                  "5.attn.v": "dict",
+                  "5.mlp.act_in": "dict",
+                  "5.mlp.post_act": "dict",
+                  "5.mlp.resid_delta": "dict",
+                  "6.attn.act_in": "dict",
+                  "6.attn.q": "dict"
+                }
+              ],
+              "len": 2,
+              "type": "tuple"
+            }
+          },
+          "is_kiter_bug_fixed": {
+            "repr": "True",
+            "type": "bool"
+          },
+          "num_total_nodes": {
+            "repr": "182784",
+            "type": "int"
+          },
+          "prune_config": {
+            "heaviside_temp": {
+              "repr": "0.23385616167813353",
+              "type": "float"
+            },
+            "init_noise_bias": {
+              "repr": "0.07201845652922913",
+              "type": "float"
+            },
+            "init_noise_scale": {
+              "repr": "0.012494703095822936",
+              "type": "float"
+            },
+            "inv_beta2": {
+              "repr": "0.25025226364800846",
+              "type": "float"
+            },
+            "logk_coef": {
+              "repr": "0.00479041821756407",
+              "type": "float"
+            },
+            "lr": {
+              "repr": "0.004807170589696154",
+              "type": "float"
+            },
+            "seed": {
+              "repr": "252063",
+              "type": "int"
+            },
+            "wd": {
+              "repr": "0.0006538585522216231",
+              "type": "float"
+            }
+          },
+          "samples": {
+            "0.attn.resid_delta": {
+              "tensor(1647)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(698)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.act_in": {
+              "tensor(1141)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1490)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1646)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(176)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(765)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.post_act": {
+              "tensor(2719)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(4016)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(4607)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(5116)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(5553)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(6416)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(7275)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "0.mlp.resid_delta": {
+              "tensor(124)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1675)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.act_in": {
+              "tensor(124)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1647)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1951)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(399)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(707)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.k": {
+              "tensor(1521)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(994)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.q": {
+              "tensor(1521)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(994)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.resid_delta": {
+              "tensor(1133)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(130)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1643)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(698)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(775)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.attn.v": {
+              "tensor(1007)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1183)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1286)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1521)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1731)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1735)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1737)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1738)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(813)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.mlp.act_in": {
+              "tensor(1675)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1711)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.mlp.post_act": {
+              "tensor(5415)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "1.mlp.resid_delta": {
+              "tensor(124)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(728)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.act_in": {
+              "tensor(1070)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1087)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1133)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1141)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(124)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1430)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1643)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1711)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1822)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1850)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2020)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(549)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(581)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(728)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(759)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(771)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(775)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(785)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(826)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.k": {
+              "tensor(2007)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.q": {
+              "tensor(2007)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.resid_delta": {
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.attn.v": {
+              "tensor(2012)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.act_in": {
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.post_act": {
+              "tensor(2122)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(5676)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "2.mlp.resid_delta": {
+              "tensor(1079)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1850)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(801)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.act_in": {
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(130)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1643)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1711)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1822)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1850)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(347)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(581)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(759)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(801)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(826)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.k": {
+              "tensor(1363)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1386)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.q": {
+              "tensor(1363)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1386)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.resid_delta": {
+              "tensor(1079)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "3.attn.v": {
+              "tensor(1365)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1371)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1385)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.act_in": {
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1675)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.k": {
+              "tensor(1284)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1292)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.q": {
+              "tensor(1284)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1292)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.resid_delta": {
+              "tensor(1079)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1339)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1974)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "4.attn.v": {
+              "tensor(1294)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.mlp.act_in": {
+              "tensor(1079)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1249)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1974)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.mlp.post_act": {
+              "tensor(1482)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2199)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2288)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2511)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(3082)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(4133)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(6250)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(6323)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(6561)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(6720)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(7058)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(7618)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "7.mlp.resid_delta": {
+              "tensor(1200)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1339)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2041)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(431)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(607)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(648)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(855)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            },
+            "final_resid": {
+              "tensor(1079)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1200)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(1339)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(2041)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(431)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(607)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(648)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              },
+              "tensor(855)": {
+                "0.001": "tuple",
+                "0.01": "tuple",
+                "0.1": "tuple",
+                "0.5": "tuple"
+              }
+            }
+          }
+        },
+        "top_level_keys": [
+          "all_loss",
+          "circuit_data",
+          "importances",
+          "is_kiter_bug_fixed",
+          "num_total_nodes",
+          "prune_config",
+          "samples"
+        ]
+      }
+    },
+    "model": "csp_yolo2",
+    "nodes": [
+      {
+        "importance": 0.2558102458715439,
+        "index": 698,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "698",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "0.attn.resid_delta:698",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.268533448378245,
+        "index": 1647,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "1647",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "0.attn.resid_delta:1647",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24101957927147546,
+        "index": 176,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "176",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:176",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4297839278976123,
+        "index": 765,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "765",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:765",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22893465931216875,
+        "index": 1141,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "1141",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:1141",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22878703102469444,
+        "index": 1490,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "1490",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:1490",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24640327940384546,
+        "index": 1646,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "1646",
+          "row_index": 4
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.act_in:1646",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "0.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2326779713233312,
+        "index": 2719,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "2719",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:2719",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.6278211772441864,
+        "index": 4016,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "4016",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:4016",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24674532686670622,
+        "index": 4607,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "4607",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:4607",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2604629124204318,
+        "index": 5116,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "5116",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:5116",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23266587282220522,
+        "index": 5553,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "5553",
+          "row_index": 4
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:5553",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22830702861150107,
+        "index": 6416,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "6416",
+          "row_index": 5
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:6416",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.241202342013518,
+        "index": 7275,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "7275",
+          "row_index": 6
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.post_act:7275",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "0.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.6530202130476633,
+        "index": 124,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "124",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.resid_delta:124",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.0347491006056468,
+        "index": 1675,
+        "layer": 0,
+        "metadata": {
+          "raw_channel": "1675",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "0.mlp.resid_delta:1675",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "0.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.240238469094038,
+        "index": 124,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "124",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:124",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22610027839740118,
+        "index": 399,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "399",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:399",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.26544156422217685,
+        "index": 707,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "707",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:707",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.3387736082077026,
+        "index": 1647,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1647",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:1647",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2335048740108808,
+        "index": 1951,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1951",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "1.attn.act_in:1951",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22960479805866876,
+        "index": 994,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "994",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.q:994",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "1.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23159912725289664,
+        "index": 1521,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1521",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.q:1521",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "1.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22960479805866876,
+        "index": 994,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "994",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.k:994",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "1.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23159912725289664,
+        "index": 1521,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1521",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.k:1521",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "1.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.5321977237860361,
+        "index": 813,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "813",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:813",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23468027263879776,
+        "index": 1007,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1007",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1007",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2434456596771876,
+        "index": 1183,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1183",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1183",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23155691598852476,
+        "index": 1286,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1286",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1286",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23350886007150015,
+        "index": 1521,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1521",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1521",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23105827470620474,
+        "index": 1731,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1731",
+          "row_index": 5
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1731",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23044892524679503,
+        "index": 1735,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1735",
+          "row_index": 6
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1735",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22653832038243613,
+        "index": 1737,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1737",
+          "row_index": 7
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1737",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.8123925626277924,
+        "index": 1738,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1738",
+          "row_index": 8
+        },
+        "module": "attn",
+        "node_id": "1.attn.v:1738",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "1.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23376359045505524,
+        "index": 130,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "130",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:130",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.5597828179597855,
+        "index": 698,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "698",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:698",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.429415558775266,
+        "index": 775,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "775",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:775",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.9842941661675771,
+        "index": 1133,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1133",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:1133",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.2040682633717856,
+        "index": 1643,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1643",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "1.attn.resid_delta:1643",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.0060778657595317,
+        "index": 1675,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1675",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "1.mlp.act_in:1675",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.1794606844584146,
+        "index": 1711,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "1711",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "1.mlp.act_in:1711",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "1.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.620107968648275,
+        "index": 5415,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "5415",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "1.mlp.post_act:5415",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "1.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.531712293624878,
+        "index": 124,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "124",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "1.mlp.resid_delta:124",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.7285186946392059,
+        "index": 728,
+        "layer": 1,
+        "metadata": {
+          "raw_channel": "728",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "1.mlp.resid_delta:728",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "1.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.7574825286865234,
+        "index": 124,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "124",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:124",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2404214565952619,
+        "index": 549,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "549",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:549",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24497566123803458,
+        "index": 581,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "581",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:581",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.8037251631418864,
+        "index": 728,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "728",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:728",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.1796074310938516,
+        "index": 759,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "759",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:759",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23390310754378638,
+        "index": 771,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "771",
+          "row_index": 5
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:771",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4776226729154587,
+        "index": 775,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "775",
+          "row_index": 6
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:775",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2340272677441438,
+        "index": 785,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "785",
+          "row_index": 7
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:785",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.5545802315076191,
+        "index": 826,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "826",
+          "row_index": 8
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:826",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24180152639746666,
+        "index": 1070,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1070",
+          "row_index": 9
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1070",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23328895370165506,
+        "index": 1087,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1087",
+          "row_index": 10
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1087",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.496019800504049,
+        "index": 1133,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1133",
+          "row_index": 11
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1133",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2366461381316185,
+        "index": 1141,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1141",
+          "row_index": 12
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1141",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.26147426789005596,
+        "index": 1430,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1430",
+          "row_index": 13
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1430",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.611902872721354,
+        "index": 1643,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1643",
+          "row_index": 14
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1643",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.6016645232836406,
+        "index": 1711,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1711",
+          "row_index": 15
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1711",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.227214394758145,
+        "index": 1822,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1822",
+          "row_index": 16
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1822",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23918054128686586,
+        "index": 1850,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1850",
+          "row_index": 17
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:1850",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23723201577862105,
+        "index": 2020,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "2020",
+          "row_index": 18
+        },
+        "module": "attn",
+        "node_id": "2.attn.act_in:2020",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.4389699300130205,
+        "index": 2007,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "2007",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.q:2007",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "2.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.4389699300130205,
+        "index": 2007,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "2007",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.k:2007",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "2.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.3727946281433105,
+        "index": 2012,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "2012",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.v:2012",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "2.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.410148938496907,
+        "index": 1249,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "2.attn.resid_delta:1249",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.005899985631307,
+        "index": 1249,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.act_in:1249",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "2.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23201503728826842,
+        "index": 2122,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "2122",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.post_act:2122",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "2.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.6599255800247192,
+        "index": 5676,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "5676",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.post_act:5676",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "2.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2320151006182035,
+        "index": 801,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "801",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.resid_delta:801",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.25631852944691974,
+        "index": 1079,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1079",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.resid_delta:1079",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.4272225896517434,
+        "index": 1850,
+        "layer": 2,
+        "metadata": {
+          "raw_channel": "1850",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "2.mlp.resid_delta:1850",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "2.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2353388840953509,
+        "index": 130,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "130",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:130",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.22795221209526062,
+        "index": 347,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "347",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:347",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23837429160873094,
+        "index": 581,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "581",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:581",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.29076333592335385,
+        "index": 759,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "759",
+          "row_index": 3
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:759",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23203154156605402,
+        "index": 801,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "801",
+          "row_index": 4
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:801",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24224718660116196,
+        "index": 826,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "826",
+          "row_index": 5
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:826",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.8295179903507233,
+        "index": 1249,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 6
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:1249",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.69097168246905,
+        "index": 1643,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1643",
+          "row_index": 7
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:1643",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.21683559442559877,
+        "index": 1711,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1711",
+          "row_index": 8
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:1711",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2190582938492298,
+        "index": 1822,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1822",
+          "row_index": 9
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:1822",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.537643611431122,
+        "index": 1850,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1850",
+          "row_index": 10
+        },
+        "module": "attn",
+        "node_id": "3.attn.act_in:1850",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "3.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.9535115559895835,
+        "index": 1363,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1363",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.q:1363",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "3.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4214354455471039,
+        "index": 1386,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1386",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "3.attn.q:1386",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "3.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.9535115559895835,
+        "index": 1363,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1363",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.k:1363",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "3.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4214354455471039,
+        "index": 1386,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1386",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "3.attn.k:1386",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "3.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.385261446237564,
+        "index": 1365,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1365",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.v:1365",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "3.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.99302872021993,
+        "index": 1371,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1371",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "3.attn.v:1371",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "3.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.6133097509543101,
+        "index": 1385,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1385",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "3.attn.v:1385",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "3.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.260181004802386,
+        "index": 1079,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1079",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "3.attn.resid_delta:1079",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "3.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 2.4985150694847107,
+        "index": 1249,
+        "layer": 3,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "3.attn.resid_delta:1249",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "3.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 4.329109350840251,
+        "index": 1249,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.act_in:1249",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "4.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23227563748757044,
+        "index": 1675,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1675",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "4.attn.act_in:1675",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "4.attn.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.5232794086138408,
+        "index": 1284,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1284",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.q:1284",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "4.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.3810596863428752,
+        "index": 1292,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1292",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "4.attn.q:1292",
+        "node_kind": "q",
+        "published_label": null,
+        "source_key": "4.attn.q",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.5232794086138408,
+        "index": 1284,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1284",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.k:1284",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "4.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.3810596863428752,
+        "index": 1292,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1292",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "4.attn.k:1292",
+        "node_kind": "k",
+        "published_label": null,
+        "source_key": "4.attn.k",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2305682860314846,
+        "index": 1294,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1294",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.v:1294",
+        "node_kind": "v",
+        "published_label": null,
+        "source_key": "4.attn.v",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.7279154459635415,
+        "index": 1079,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1079",
+          "row_index": 0
+        },
+        "module": "attn",
+        "node_id": "4.attn.resid_delta:1079",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "4.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24258792152007422,
+        "index": 1339,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1339",
+          "row_index": 1
+        },
+        "module": "attn",
+        "node_id": "4.attn.resid_delta:1339",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "4.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24316069980462393,
+        "index": 1974,
+        "layer": 4,
+        "metadata": {
+          "raw_channel": "1974",
+          "row_index": 2
+        },
+        "module": "attn",
+        "node_id": "4.attn.resid_delta:1974",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "4.attn.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 3.1218138535817466,
+        "index": 1079,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1079",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.act_in:1079",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "7.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.599555770556132,
+        "index": 1249,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1249",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.act_in:1249",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "7.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23738394553462663,
+        "index": 1974,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1974",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.act_in:1974",
+        "node_kind": "act_in",
+        "published_label": null,
+        "source_key": "7.mlp.act_in",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24554619689782461,
+        "index": 1482,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1482",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:1482",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23618000000715256,
+        "index": 2199,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "2199",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:2199",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23330756028493246,
+        "index": 2288,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "2288",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:2288",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.3341710517803828,
+        "index": 2511,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "2511",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:2511",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24833790957927704,
+        "index": 3082,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "3082",
+          "row_index": 4
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:3082",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4557369152704875,
+        "index": 4133,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "4133",
+          "row_index": 5
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:4133",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2377189869681994,
+        "index": 6250,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "6250",
+          "row_index": 6
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:6250",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.3081371436516444,
+        "index": 6323,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "6323",
+          "row_index": 7
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:6323",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2632983898123105,
+        "index": 6561,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "6561",
+          "row_index": 8
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:6561",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.24794636045893034,
+        "index": 6720,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "6720",
+          "row_index": 9
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:6720",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.26515739659468335,
+        "index": 7058,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "7058",
+          "row_index": 10
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:7058",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.23070936153332391,
+        "index": 7618,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "7618",
+          "row_index": 11
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.post_act:7618",
+        "node_kind": "post_act",
+        "published_label": null,
+        "source_key": "7.mlp.post_act",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.4000813762346904,
+        "index": 431,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "431",
+          "row_index": 0
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:431",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.25455397367477417,
+        "index": 607,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "607",
+          "row_index": 1
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:607",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.28900205592314404,
+        "index": 648,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "648",
+          "row_index": 2
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:648",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.26287946105003357,
+        "index": 855,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "855",
+          "row_index": 3
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:855",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.4163213521242142,
+        "index": 1200,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1200",
+          "row_index": 4
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:1200",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.25243833288550377,
+        "index": 1339,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "1339",
+          "row_index": 5
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:1339",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.27086805055538815,
+        "index": 2041,
+        "layer": 7,
+        "metadata": {
+          "raw_channel": "2041",
+          "row_index": 6
+        },
+        "module": "mlp",
+        "node_id": "7.mlp.resid_delta:2041",
+        "node_kind": "resid_delta",
+        "published_label": null,
+        "source_key": "7.mlp.resid_delta",
+        "token_position_role": null
+      },
+      {
+        "importance": 1.4766868948936462,
+        "index": 431,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "431",
+          "row_index": 0
+        },
+        "module": "unknown",
+        "node_id": "final_resid:431",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.25456833591063815,
+        "index": 607,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "607",
+          "row_index": 1
+        },
+        "module": "unknown",
+        "node_id": "final_resid:607",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.2892086406548818,
+        "index": 648,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "648",
+          "row_index": 2
+        },
+        "module": "unknown",
+        "node_id": "final_resid:648",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.262746920188268,
+        "index": 855,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "855",
+          "row_index": 3
+        },
+        "module": "unknown",
+        "node_id": "final_resid:855",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.3375098506609599,
+        "index": 1079,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "1079",
+          "row_index": 4
+        },
+        "module": "unknown",
+        "node_id": "final_resid:1079",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.41631749272346497,
+        "index": 1200,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "1200",
+          "row_index": 5
+        },
+        "module": "unknown",
+        "node_id": "final_resid:1200",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.3098953713973363,
+        "index": 1339,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "1339",
+          "row_index": 6
+        },
+        "module": "unknown",
+        "node_id": "final_resid:1339",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      },
+      {
+        "importance": 0.27097950875759125,
+        "index": 2041,
+        "layer": null,
+        "metadata": {
+          "raw_channel": "2041",
+          "row_index": 7
+        },
+        "module": "unknown",
+        "node_id": "final_resid:2041",
+        "node_kind": "final_resid",
+        "published_label": null,
+        "source_key": "final_resid",
+        "token_position_role": null
+      }
+    ],
+    "source_artifact": "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/k_optim/viz_data.pt",
+    "sweep": "prune_v4",
+    "task": "bracket_counting_beeg"
+  },
+  "notes": [],
+  "status": {
+    "cache_dir": "C:\\Users\\zgzg1/data/dev/shm/cache",
+    "circuit_home": "C:\\tmp\\circuit_sparsity",
+    "error": "",
+    "import_ok": true,
+    "model_base_dir": "https://openaipublic.blob.core.windows.net/circuit-sparsity"
+  }
+}

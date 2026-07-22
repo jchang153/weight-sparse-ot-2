@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve the original bytes of moved source, results, and frozen releases.
+# Release manifests hash these files exactly, including their line endings.
+src/** -text whitespace=cr-at-eol
+tests/** -text whitespace=cr-at-eol
+results/** -text whitespace=cr-at-eol
+releases/** -text whitespace=cr-at-eol,-blank-at-eof

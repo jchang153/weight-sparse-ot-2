@@ -1,0 +1,90 @@
+{
+  "Dte_inputs_used": [],
+  "selected": {
+    "beta": 0.08,
+    "both_validated": true,
+    "epsilon": 0.08,
+    "joint_mean_score": 1.0,
+    "joint_worst_gate": 1.0,
+    "selected": {
+      "R_late": {
+        "beta": 0.08,
+        "coefficients": [
+          1.0
+        ],
+        "epsilon": 0.08,
+        "gates": {
+          "different_R_T2_expected": 1.0,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 1.0,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 1.0,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "handle_id": "R_late:eps0.08:beta0.08:K1:lambda1",
+        "k": 1,
+        "score": 1.0,
+        "site_ids": [
+          "7.mlp.act_in:1079"
+        ],
+        "strength": 1.0,
+        "target": "R_late",
+        "validated": true,
+        "weights": [
+          1.0
+        ],
+        "worst_gate": 1.0
+      },
+      "R_mid": {
+        "beta": 0.08,
+        "coefficients": [
+          1.0
+        ],
+        "epsilon": 0.08,
+        "gates": {
+          "different_R_T2_expected": 1.0,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 1.0,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 1.0,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "handle_id": "R_mid:eps0.08:beta0.08:K1:lambda1",
+        "k": 1,
+        "score": 1.0,
+        "site_ids": [
+          "4.attn.resid_delta:1079"
+        ],
+        "strength": 1.0,
+        "target": "R_mid",
+        "validated": true,
+        "weights": [
+          1.0
+        ],
+        "worst_gate": 1.0
+      }
+    },
+    "total_k": 2
+  },
+  "selection_completed_before_Dte": true,
+  "selection_inputs": [
+    "Dfit joint coupling",
+    "fresh Dcal calibration"
+  ]
+}

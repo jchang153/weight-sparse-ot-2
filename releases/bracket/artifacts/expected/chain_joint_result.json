@@ -1,0 +1,967 @@
+{
+  "clean": {
+    "Dcal_T2_readout_accuracy": 1.0,
+    "Dcal_accuracy": 1.0,
+    "Dte_T2_readout_accuracy": 1.0,
+    "Dte_accuracy": 1.0
+  },
+  "decision": {
+    "accepted_model": "X -> R_late -> Y",
+    "full_model_validated": false,
+    "supports_distinct": true
+  },
+  "heldout": {
+    "R_late": {
+      "acceptance": {
+        "checks": {
+          "different_R_T2_expected": true,
+          "different_R_output_expected": true,
+          "one_to_two_T2_expected": true,
+          "one_to_two_output_expected": true,
+          "same_R_T2_expected": true,
+          "same_R_output_expected": true,
+          "same_surface_T2_expected": true,
+          "same_surface_output_expected": true,
+          "two_to_one_T2_expected": true,
+          "two_to_one_output_expected": true,
+          "wrong_numeric_T2_expected": true,
+          "wrong_numeric_output_expected": true,
+          "wrong_tail_T2_expected": true,
+          "wrong_tail_output_expected": true
+        },
+        "threshold": 0.9,
+        "validated": true
+      },
+      "summary": {
+        "gates": {
+          "different_R_T2_expected": 1.0,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 1.0,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 1.0,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "records": 600,
+        "relation_counts": {
+          "different_D_different_R": 100,
+          "different_D_same_R": 100,
+          "same_D": 100,
+          "same_surface_different_active_context": 100,
+          "wrong_numeric_content": 100,
+          "wrong_tail_length": 100
+        },
+        "score": 1.0,
+        "worst_gate": 1.0
+      }
+    },
+    "R_mid": {
+      "acceptance": {
+        "checks": {
+          "different_R_T2_expected": true,
+          "different_R_output_expected": true,
+          "one_to_two_T2_expected": true,
+          "one_to_two_output_expected": true,
+          "same_R_T2_expected": true,
+          "same_R_output_expected": true,
+          "same_surface_T2_expected": true,
+          "same_surface_output_expected": true,
+          "two_to_one_T2_expected": true,
+          "two_to_one_output_expected": true,
+          "wrong_numeric_T2_expected": true,
+          "wrong_numeric_output_expected": true,
+          "wrong_tail_T2_expected": true,
+          "wrong_tail_output_expected": true
+        },
+        "threshold": 0.9,
+        "validated": true
+      },
+      "summary": {
+        "gates": {
+          "different_R_T2_expected": 1.0,
+          "different_R_output_expected": 1.0,
+          "one_to_two_T2_expected": 1.0,
+          "one_to_two_output_expected": 1.0,
+          "same_R_T2_expected": 1.0,
+          "same_R_output_expected": 1.0,
+          "same_surface_T2_expected": 1.0,
+          "same_surface_output_expected": 1.0,
+          "two_to_one_T2_expected": 1.0,
+          "two_to_one_output_expected": 1.0,
+          "wrong_numeric_T2_expected": 1.0,
+          "wrong_numeric_output_expected": 1.0,
+          "wrong_tail_T2_expected": 1.0,
+          "wrong_tail_output_expected": 1.0
+        },
+        "records": 600,
+        "relation_counts": {
+          "different_D_different_R": 100,
+          "different_D_same_R": 100,
+          "same_D": 100,
+          "same_surface_different_active_context": 100,
+          "wrong_numeric_content": 100,
+          "wrong_tail_length": 100
+        },
+        "score": 1.0,
+        "worst_gate": 1.0
+      }
+    }
+  },
+  "mediation": {
+    "checks": {
+      "R_late_T2_base_preserve": true,
+      "R_late_output_source_match": true,
+      "R_mid_T2_source_match": true,
+      "R_mid_output_source_match": true,
+      "blocked_T2_source_match": true,
+      "blocked_output_base_preserve": false,
+      "blocked_output_base_preserve_one_to_two": true,
+      "blocked_output_base_preserve_two_to_one": false,
+      "margin_mediation_fraction": true
+    },
+    "metrics": {
+      "R_late_T2_base_preserve": 1.0,
+      "R_late_output_source_match": 1.0,
+      "R_mid_T2_source_match": 1.0,
+      "R_mid_output_source_match": 1.0,
+      "blocked_T2_source_match": 1.0,
+      "blocked_output_base_preserve": 0.875,
+      "blocked_output_base_preserve_one_to_two": 1.0,
+      "blocked_output_base_preserve_two_to_one": 0.7468354430379747,
+      "mean_margin_mediation_fraction": 0.756307908064809
+    },
+    "validated": false
+  },
+  "run_manifest_sha256": "2e4cce4eab0046ba802164b5cec46de17be5f3fe620f402018d5f5859e8328bd",
+  "selection": {
+    "best": {
+      "beta": 0.08,
+      "both_validated": true,
+      "epsilon": 0.08,
+      "joint_mean_score": 1.0,
+      "joint_worst_gate": 1.0,
+      "selected": {
+        "R_late": {
+          "beta": 0.08,
+          "coefficients": [
+            1.0
+          ],
+          "epsilon": 0.08,
+          "gates": {
+            "different_R_T2_expected": 1.0,
+            "different_R_output_expected": 1.0,
+            "one_to_two_T2_expected": 1.0,
+            "one_to_two_output_expected": 1.0,
+            "same_R_T2_expected": 1.0,
+            "same_R_output_expected": 1.0,
+            "same_surface_T2_expected": 1.0,
+            "same_surface_output_expected": 1.0,
+            "two_to_one_T2_expected": 1.0,
+            "two_to_one_output_expected": 1.0,
+            "wrong_numeric_T2_expected": 1.0,
+            "wrong_numeric_output_expected": 1.0,
+            "wrong_tail_T2_expected": 1.0,
+            "wrong_tail_output_expected": 1.0
+          },
+          "handle_id": "R_late:eps0.08:beta0.08:K1:lambda1",
+          "k": 1,
+          "score": 1.0,
+          "site_ids": [
+            "7.mlp.act_in:1079"
+          ],
+          "strength": 1.0,
+          "target": "R_late",
+          "validated": true,
+          "weights": [
+            1.0
+          ],
+          "worst_gate": 1.0
+        },
+        "R_mid": {
+          "beta": 0.08,
+          "coefficients": [
+            1.0
+          ],
+          "epsilon": 0.08,
+          "gates": {
+            "different_R_T2_expected": 1.0,
+            "different_R_output_expected": 1.0,
+            "one_to_two_T2_expected": 1.0,
+            "one_to_two_output_expected": 1.0,
+            "same_R_T2_expected": 1.0,
+            "same_R_output_expected": 1.0,
+            "same_surface_T2_expected": 1.0,
+            "same_surface_output_expected": 1.0,
+            "two_to_one_T2_expected": 1.0,
+            "two_to_one_output_expected": 1.0,
+            "wrong_numeric_T2_expected": 1.0,
+            "wrong_numeric_output_expected": 1.0,
+            "wrong_tail_T2_expected": 1.0,
+            "wrong_tail_output_expected": 1.0
+          },
+          "handle_id": "R_mid:eps0.08:beta0.08:K1:lambda1",
+          "k": 1,
+          "score": 1.0,
+          "site_ids": [
+            "4.attn.resid_delta:1079"
+          ],
+          "strength": 1.0,
+          "target": "R_mid",
+          "validated": true,
+          "weights": [
+            1.0
+          ],
+          "worst_gate": 1.0
+        }
+      },
+      "total_k": 2
+    },
+    "candidates": [
+      {
+        "beta": 0.02,
+        "both_validated": true,
+        "epsilon": 0.02,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.02:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.02:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.08,
+        "both_validated": true,
+        "epsilon": 0.02,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.02:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.02:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.32,
+        "both_validated": true,
+        "epsilon": 0.02,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.02:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.02,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.02:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.02,
+        "both_validated": true,
+        "epsilon": 0.08,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.08:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.08:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.08,
+        "both_validated": true,
+        "epsilon": 0.08,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.08:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.08:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.32,
+        "both_validated": true,
+        "epsilon": 0.08,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.08:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.08,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.08:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.02,
+        "both_validated": true,
+        "epsilon": 0.32,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.32:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.02,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.32:beta0.02:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.08,
+        "both_validated": true,
+        "epsilon": 0.32,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.32:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.08,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.32:beta0.08:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      },
+      {
+        "beta": 0.32,
+        "both_validated": true,
+        "epsilon": 0.32,
+        "joint_mean_score": 1.0,
+        "joint_worst_gate": 1.0,
+        "selected": {
+          "R_late": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_late:eps0.32:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "7.mlp.act_in:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_late",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          },
+          "R_mid": {
+            "beta": 0.32,
+            "coefficients": [
+              1.0
+            ],
+            "epsilon": 0.32,
+            "gates": {
+              "different_R_T2_expected": 1.0,
+              "different_R_output_expected": 1.0,
+              "one_to_two_T2_expected": 1.0,
+              "one_to_two_output_expected": 1.0,
+              "same_R_T2_expected": 1.0,
+              "same_R_output_expected": 1.0,
+              "same_surface_T2_expected": 1.0,
+              "same_surface_output_expected": 1.0,
+              "two_to_one_T2_expected": 1.0,
+              "two_to_one_output_expected": 1.0,
+              "wrong_numeric_T2_expected": 1.0,
+              "wrong_numeric_output_expected": 1.0,
+              "wrong_tail_T2_expected": 1.0,
+              "wrong_tail_output_expected": 1.0
+            },
+            "handle_id": "R_mid:eps0.32:beta0.32:K1:lambda1",
+            "k": 1,
+            "score": 1.0,
+            "site_ids": [
+              "4.attn.resid_delta:1079"
+            ],
+            "strength": 1.0,
+            "target": "R_mid",
+            "validated": true,
+            "weights": [
+              1.0
+            ],
+            "worst_gate": 1.0
+          }
+        },
+        "total_k": 2
+      }
+    ]
+  }
+}

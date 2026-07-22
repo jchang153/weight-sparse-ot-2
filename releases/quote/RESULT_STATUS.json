@@ -1,0 +1,18 @@
+{
+  "models": {
+    "Q0": {
+      "graph": "X -> Y",
+      "status": "baseline_without_internal_causal_variable"
+    },
+    "Q1": {
+      "graph": "X -> U -> Y",
+      "handle": ["0.mlp.resid_delta:460"],
+      "status": "certified"
+    },
+    "Q2": {
+      "graph": "X -> P; (X,P) -> Q; Q -> Y",
+      "status": "not_certified"
+    }
+  },
+  "primary_candidate_count": 64
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_count": 64,
+  "candidate_filtering": "none",
+  "effect_signature": "phi(y_swap)-phi(y_base)",
+  "epsilon": 0.08,
+  "beta": 0.08,
+  "k_grid": [1, 2, 3, 5, 8],
+  "lambda_grid": [0.5, 1.0, 2.0, 4.0],
+  "main_selector": "cosine_cost_one_sided_uot",
+  "abstract_variable": "U=unmatched quote type",
+  "neural_phi": "logit(double_quote)-logit(single_quote)"
+}

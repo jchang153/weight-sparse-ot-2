@@ -1,0 +1,18 @@
+# Operating-system metadata
+.DS_Store
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and downloaded dependencies
+.venv/
+.external/
+.cache/
+
+# Model-backed rerun outputs
+outputs/
+runs/

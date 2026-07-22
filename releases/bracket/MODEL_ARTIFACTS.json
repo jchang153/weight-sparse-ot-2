@@ -1,0 +1,34 @@
+{
+  "artifacts": [
+    {
+      "bytes": 823,
+      "cache_key": "12f4a85a2ccf01f87bcb3c5d97e73d72928aaee4",
+      "cache_key_source": "https://openaipublic.blob.core.windows.net/circuit-sparsity/models/csp_yolo2/beeg_config.json",
+      "name": "beeg_config.json",
+      "sha256": "a80b49d251d1bed529d56b52e87559c6b1000ae58034e148933f3c191b8b3a07",
+      "url": "https://openaipublic.blob.core.windows.net/circuit-sparsity/models/csp_yolo2/beeg_config.json"
+    },
+    {
+      "bytes": 1676532054,
+      "cache_key": "68d7360e76d349720948cee9b39a1a36ba8d5b07",
+      "cache_key_source": "az://openaipublic/circuit-sparsity/models/csp_yolo2/final_model.pt",
+      "name": "final_model.pt",
+      "sha256": "988cf534a28ab296b45776a29ea91eb3e942c3895fd18eaabfa3f5bd1e7fbd85",
+      "url": "https://openaipublic.blob.core.windows.net/circuit-sparsity/models/csp_yolo2/final_model.pt"
+    },
+    {
+      "bytes": 13623136,
+      "cache_key": "e542e2afc9541e91070ef05186cc0b24a2045c7d",
+      "cache_key_source": "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/k_optim/viz_data.pt",
+      "kind": "public_task_input",
+      "name": "bracket_counting_viz_data.pt",
+      "sha256": "f6c39c970d6aaa37834bfbc5dedbf0f2a974fed3a235f2625e95b2b20dbf16d4",
+      "url": "https://openaipublic.blob.core.windows.net/circuit-sparsity/viz/csp_yolo2/bracket_counting_beeg/prune_v4/k_optim/viz_data.pt"
+    }
+  ],
+  "circuit_sparsity_commit": "dbf1fe0d27b76c19e10d2a715f28c2e5da535e08",
+  "circuit_sparsity_repository": "https://github.com/openai/circuit_sparsity.git",
+  "model_name": "csp_yolo2",
+  "model_weights_in_zip": false,
+  "public_base_url": "https://openaipublic.blob.core.windows.net/circuit-sparsity/models/csp_yolo2/"
+}
